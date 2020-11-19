@@ -166,8 +166,8 @@ a
 
 .filtre
 {  
-    border: #f2f2f2 1px solid; 
-    border-radius: 50px 20px 20px 50px;
+    border: #f2f2f2 3px solid; 
+    border-radius: 50px 50px 50px 50px;
     align-items: center;    
 }
 
@@ -209,9 +209,7 @@ a
 .choix input
 {    
     height: 40px;
-    border: #f2f2f2; 
-    
-    
+    border: #f2f2f2;   
 }
 
 
@@ -251,9 +249,7 @@ img
     padding-left: 1%;
     border: #f2f2f2 1px solid; 
     border-radius: 30px;    
-
 }
-
  
 
 /* Title Hebergement */
@@ -261,16 +257,14 @@ img
 #title
 {   
     font-size: 1.6em;
-   font-weight: bolder;
+    font-weight: bolder;
 }
-
 
 
 /* Card */
 
 .card
-{
-    
+{    
     display: flex;
     flex-flow: row wrap;
     width: 31%; 
@@ -297,6 +291,7 @@ img
     border-radius: 10px 10px 0 0;
    }
 
+
 /* Card description */
 
 .card-description
@@ -314,11 +309,26 @@ img
 }
 
 
+/* Etoile de notation */
+
+#blue
+{
+    color: #0065fc;
+}
+
+#grey
+{
+    color: #f2f2f2;
+}
+
+
 /* More */
+
 #more
 {
-    margin-top: 5%;
-    margin-bottom: 3%;
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding-bottom: 2%;
 }
 
 
@@ -327,24 +337,42 @@ img
 aside
 
 {  
-    background-color: #f2f2f2;    
+    background-color: #f2f2f2;
+    border: #f2f2f2 1px solid; 
+    border-radius: 30px;  
+    
 }
+
+/* Title */
+
+#title-aside
+{
+    font-size: 1.6em;
+    font-weight: bolder;
+}
+
+
+#logo-aside
+{
+    font-size: 1em;
+    padding-left: 52%;
+}
+
 
 
 /* Card Content */
 
 .card-content
 {   
-    display: flex;
-    flex-wrap: row wrap;
-    padding-bottom: 2%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    display: flex;   
     width: 80%;
-    padding-top: 5.5%;
-
+    margin-left: auto;  
+    margin-right: auto;   
+    border: white 6px solid; 
+    border-radius: 10px;   
+    margin-bottom: 10%;
+   
+  
 }
 
 /* Card image */
@@ -352,10 +380,9 @@ aside
 
 aside .card-content-image
 {   
-    
     width: 250px; 
     height: 150px; 
-    object-fit: cover; 
+    
 
 }
 
@@ -368,6 +395,7 @@ aside .card-content-image
     display : inline ;
     background: white;
     color: black;
+    padding-left: 3%;
 
 }
 
