@@ -86,76 +86,111 @@ a
 
 /* Search */
 
-#class
-{
+
+
+#recherche
+{         
     display: flex;
-    align-items: center;
-    border: 2px black solid;
-    width: 500px;
+    width: 500px; 
     border-radius: 20px;
     height: 50px;
-    
+}
+  
+.local
+{
+    flex: 1 1 auto;
 }
 
 #label
 {
+    background-color: #f2f2f2;
+    border-radius: 20px 0 0 20px;
+    text-align: center;
+}
+
+#ici
+{
     color: black;
     background-color: #f2f2f2;
-    width: 35%;
-    height: 35px;
-    text-align: center;
-    padding-top: 15px;
+    text-align: center;    
     border-radius: 20px 0 0 20px;
-    
+    width: 50%;
+    height: 35px;    
+    padding-top: 15px;
+    margin: 0 auto;  
 }
 
 
-
-#input
+#text
 {
-    width: 140%;
-    cursor: pointer;
-    
+    cursor: pointer;   
+    width: 100%;
+    height: 48px;
+    border: #f2f2f2 1px solid;
+    font-weight: bolder;    
 }
 
-.rechercher
+
+#rechercher
 {    
     color: white;
-    background-color: #0065fc;
-    width: 128%;    
-    height: 50px;
-
+    background-color: #0065fc;  
+    border-radius: 0 20px 20px 0;
+    width: 102%;
+    height: 50px;    
+    border: #f2f2f2 1px solid; 
 }
 
-/*
-
-.search-town
-{
-    display: flex;
-    
-}
-
-.where input[id="text"], input[class="rechercher"] 
-{
-    height: 50px;
-
-}
-
-.where
-{
-
-}
-
-.rechercher
-{
-    color: white;
-    background: #0065FC;
-}
-
-*/
 
 /* Filtres */
 
+#filters
+{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 50px;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-top: 15px;
+    
+}
+
+#titre-filtre
+{
+    width: 50px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    
+}
+
+
+.filtre
+{
+    width: 20%;
+}
+
+.filtre label
+{
+    color: #0065fc;
+    background-color: #deebff;  
+    border-radius: 20px 20px 20px 20px;
+            
+    border: #f2f2f2 1px solid; 
+}
+
+.filtre input
+{
+    cursor: pointer;   
+    width: 80%;
+    height: 48px;
+    border: #f2f2f2 1px solid;
+    font-weight: bolder;  
+}
+
+
+
+/*
 #filters
 {
     width: 66%;
@@ -194,6 +229,8 @@ a
     border-radius: 100px / 80px;
 
 }
+
+*/
 
 
 /* Annonces principales */
@@ -291,6 +328,7 @@ img
     margin-top: 5%;
     margin-bottom: 3%;
 }
+
 
 /* ASIDE */
 

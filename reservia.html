@@ -37,62 +37,70 @@
              <section id="search">
                  <div id="search-town">
                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                    <p>En plein centre-ville ou en pleine nature</p>
-                    
+                    <p>En plein centre-ville ou en pleine nature</p>                    
 
                  <!--champ de recherche-->
 
-                    <div id="class">
-                        <div id="label">
-                            <label class="fas fa-map-marker-alt"></label>
+                    <div id="recherche">                        
+                        <div class="local" id="label">
+                            <label class="fas fa-map-marker-alt" id="ici"></label>
                         </div>
                         
-                        <div id="input">
+                        <div class="local">
                             <input type="text" id="text">
                         </div>
 
-                        <div id="submit">
-                            <input type="submit" name="town" class="rechercher" value="Rechercher">
+                        <div class="local">
+                            <input type="submit" name="town" id="rechercher" value="Rechercher">
                         </div>
-                    </div>
-
-
-                
-
-
-<!--
-
-                
-                    <form class="town">
-                        <div class="where">
-                            <label class="fas fa-map-marker-alt"></label><input type="text" id="text"><input type="submit" name="town" class="rechercher" value="Rechercher">
-                        </div>
-                    </form>
- -->
+                    </div>         
 
                  </div>
+
 
                  <!--Filtres-->
                  <div id="filters">
-                    
-                    <h2>Filtres</h2>
 
-                    <!-- Tarif-->  
-                                     
-      				 <input type="text" name="tarif" id="tarif" placeholder="Economique"/>
+                    <div id="titre-filtre">                    
+                        Filtres
+                    </div>
 
-                    <!-- Type-->                      
-      				 <input type="text" name="type" id="type" placeholder="Familial"/>
+                    <!-- Tarif -->  
+                    <div class="filtre">                        
+                                                
+                            <label class="fas fa-money-bill-wave" id="money"></label>                        
+                            <input type="text" id="tarif" placeholder="Economique">
+                                            
+                    </div>     
 
-                    <!-- Genre-->                      
-      				 <input type="text" name="genre" id="genre" placeholder="Romantique"/>
-                     
-       				<!-- Animaux-->                    
-                       <input type="text" name="animaux" id="animaux" placeholder="Animaux autorisés"/>
+                    <!-- Type  --> 
+                    <div class="filtre">                        
+                        
+                            <label class="fas fa-child" id="child"></label>                        
+                            <input type="text" id="type" placeholder="Familial"/>
+                                                
+                    </div> 
 
-                 </div>
+                    <!-- Genre -->
+                    <div class="filtre">                        
+                        
+                            <label class="fas fa-heart" id="heart"></label>                       
+                            <input type="text" id="genre" placeholder="Romantique">
+                                                
+                    </div>   
 
-                       
+                    <!-- Animaux -->  
+                    <div class="filtre">                       
+                        
+                            <label class="fas fa-dog" id="dog"></label>
+                            <input type="text" id="animaux" placeholder="Animaux autorisés">
+                                               
+                    </div> 
+                
+                </div>
+                 
+
+
                  <!--Information-->
                  <div id="information">
                     <p><i class="fas fa-info-circle"></i>
