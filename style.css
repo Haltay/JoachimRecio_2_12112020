@@ -17,6 +17,7 @@
     font-style: normal;
 }
 
+
 /* Eléments principaux de la page */
 
 body
@@ -248,7 +249,8 @@ img
     padding-right: 1%;
     padding-left: 1%;
     border: #f2f2f2 1px solid; 
-    border-radius: 30px;    
+    border-radius: 30px;  
+    
 }
  
 
@@ -258,6 +260,7 @@ img
 {   
     font-size: 1.6em;
     font-weight: bolder;
+    
 }
 
 
@@ -274,6 +277,7 @@ img
     margin-bottom: 2%;
     border: white 6px solid; 
     border-radius: 10px;   
+    
 }
 
 
@@ -349,15 +353,15 @@ aside
 {
     font-size: 1.6em;
     font-weight: bolder;
+    margin-left: 9%;
 }
 
 
 #logo-aside
 {
     font-size: 1em;
-    padding-left: 52%;
+    padding-left: 48%;
 }
-
 
 
 /* Card Content */
@@ -370,9 +374,7 @@ aside
     margin-right: auto;   
     border: white 6px solid; 
     border-radius: 10px;   
-    margin-bottom: 10%;
-   
-  
+    margin-bottom: 6%;
 }
 
 /* Card image */
@@ -381,9 +383,7 @@ aside
 aside .card-content-image
 {   
     width: 250px; 
-    height: 150px; 
-    
-
+    height: 150px;   
 }
 
 
@@ -403,35 +403,48 @@ aside .card-content-image
 
 /* ACTIVITES A MARSEILLE */
 
-#features-Marseille
+#title-activites
 {
-   display: flex;
-   
+    font-size: 1.6em;
+    font-weight: bolder;
     
+}
+
+#features-Marseille
+{   display: flex;
+    justify-content: space-between;
+    width: 100%; 
 }
 
 
 .card-features-Marseille
-{
-    
+{    
+    width: 23%;
+    margin-bottom: 2%;
 }
    
 
 .features
-{
-    padding-right: 10%;
-
-  
+{  
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 10%;
+    border: #f2f2f2 1px solid; 
+    border-radius: 30px;
+    box-shadow: 4px 4px 0px #f2f2f2;   
 }
 
 
 .features-image-1-1
-{
-
-    width: 100%; 
-    height: 474px; 
+{   
+    height: 510px; 
     display: block;
-    
+    overflow: hidden;    
+    -webkit-border-radius: 30px 30px 0 0;
+    -moz-border-radius: 30px 30px 0 0;
+    -ms-border-radius: 30px 30px 0 0;
+    -o-border-radius: 30px 30px 0 0;
+    border-radius: 30px 30px 0 0;
 }
 
 
@@ -440,7 +453,12 @@ aside .card-content-image
     width: 100%;
     height: 212px;
     display: block;
-    
+    overflow: hidden;  
+    -webkit-border-radius: 30px 30px 0 0;
+    -moz-border-radius: 30px 30px 0 0;
+    -ms-border-radius: 30px 30px 0 0;
+    -o-border-radius: 30px 30px 0 0;
+    border-radius: 30px 30px 0 0;
 }
 
 
@@ -449,6 +467,12 @@ aside .card-content-image
     width: 100%;
     height: 140px;
     display: block;
+    overflow: hidden;  
+    -webkit-border-radius: 30px 30px 0 0;
+    -moz-border-radius: 30px 30px 0 0;
+    -ms-border-radius: 30px 30px 0 0;
+    -o-border-radius: 30px 30px 0 0;
+    border-radius: 30px 30px 0 0;
 }
 
 .features-image-2-3
@@ -456,18 +480,23 @@ aside .card-content-image
     width: 100%;
     height: 280px;
     display: block;
+    overflow: hidden;  
+    -webkit-border-radius: 30px 30px 0 0;
+    -moz-border-radius: 30px 30px 0 0;
+    -ms-border-radius: 30px 30px 0 0;
+    -o-border-radius: 30px 30px 0 0;
+    border-radius: 30px 30px 0 0;
 }
 
 
 .features-description
 {
-
-    font-size: 1.4em;
+    font-size: 1em;
     font-weight: bolder;
     text-align: left;
-    padding-top: 2%;
-    padding-left: 2%;
-    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-left: 4%;
+    padding-bottom: 4%; 
 }
 
 
