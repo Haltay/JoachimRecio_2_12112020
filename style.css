@@ -1,0 +1,548 @@
+
+/* Définition des polices personnalisées */
+
+@font-face {
+    font-family: 'ralewaythin_italic';
+    src: url('fonts/raleway-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('fonts/raleway-italic-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('fonts/raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('fonts/raleway-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Eléments principaux de la page */
+
+body
+{
+    background: color= #ffffff;
+    font-family: 'ralewaythin', 'ralewaythin_italic', Arial, sans-serif;
+    color: #000000;
+}
+
+
+section h1, section h2, footer h2
+{
+    font-size: 1.6em;
+    font-weight: bolder;
+}
+
+a:hover
+{
+    color: #0065FC;
+}
+
+
+/* Header*/
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 2%;
+}
+
+
+/* logo */
+
+#logo-header img
+{
+    width: 97px;
+    height: 34px;
+}
+
+
+/* navigation */
+
+#nav-list
+{
+    width: 20%;
+    display: flex;
+    padding-right: 10%;    
+    justify-content: space-between;    
+}
+
+a
+{
+    font-size: 0.9em;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+#nav-list div
+{
+   
+}
+
+.color-nav
+{   
+    
+    border-top: 3px solid #0065fc;
+    color: #0065fc;
+}
+
+
+
+/* Search */
+
+
+
+#recherche
+{         
+    display: flex;
+    width: 500px; 
+    border-radius: 20px;
+    height: 50px;
+}
+  
+.local
+{
+    flex: 1 1 auto;
+}
+
+#la
+{
+    background-color: #f2f2f2;
+    border-radius: 20px 0 0 20px;
+    text-align: center;
+}
+
+#ici
+{
+    color: black;
+    background-color: #f2f2f2;
+    text-align: center;    
+    border-radius: 20px 0 0 20px;
+    width: 50%;
+    height: 35px;    
+    padding-top: 15px;
+    margin: 0 auto;  
+}
+
+
+#text
+{
+    cursor: pointer;   
+    width: 100%;
+    height: 44px;
+    border: #f2f2f2 1px solid;
+    font-weight: bolder;    
+}
+
+
+#rechercher
+{    
+    color: white;
+    background-color: #0065fc;  
+    border-radius: 0 20px 20px 0;
+    width: 102%;
+    height: 50px;    
+    border: #f2f2f2 1px solid; 
+}
+
+
+/* Filtres */
+
+#filters
+{
+    display: flex;
+    align-items: center;
+    width: 70%;    
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 40px;
+        
+    
+}
+
+#titre-filtre
+{
+    width: 50px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    
+}
+
+.filtre
+{  
+    border: #f2f2f2 3px solid; 
+    border-radius: 50px 50px 50px 50px;
+    align-items: center;
+}
+
+.filtre:hover
+{
+    opacity: 0.3;
+}
+
+
+.logo
+{   
+    position: relative;
+    float: left; 
+    width: 30%;
+    color: #0065fc;    
+    float: left;  
+   
+}
+
+.logo #log
+{
+    padding-top: 18px;
+    display: inline-block;    
+    width: 95%;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #deebff;
+    text-align: center;
+}
+
+.choix
+{
+    position: relative;  
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    padding-top: 7px;     
+    width: 70%; 
+    overflow: hidden;    
+}
+
+.choix input
+{    
+    height: 40px;
+    border: #f2f2f2;   
+}
+
+
+/* Annonces principales */
+
+#principal_section
+{
+    display: flex;
+    margin-bottom: auto; 
+}
+
+img
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+.price
+{
+    font-weight: bold;
+
+}
+
+/* div description */
+
+#description
+{  
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch; 
+    background: #f2f2f2;    
+    margin-right: 2%;
+    padding-right: 1%;
+    padding-left: 1%;
+    border: #f2f2f2 1px solid; 
+    border-radius: 30px;  
+    
+}
+ 
+
+/* Title Hebergement */
+
+#title
+{   
+    font-size: 1.6em;
+    font-weight: bolder;    
+}
+
+
+/* Card */
+
+.card
+{    
+    display: flex;
+    flex-flow: row wrap;
+    width: 31%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 2%;
+    background: white;
+    border: white 6px solid; 
+    border-radius: 10px;   
+    
+}
+
+
+/* Card Image */
+
+.card-image
+{
+    height: 180px;
+    overflow: hidden;    
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+   }
+
+
+/* Card description */
+
+.card-description
+{    
+    text-align: left;
+    margin: 0;
+    left: auto;
+    right: auto;
+    bottom: -3px;
+    color: black;
+    width: 100%;
+    height: 35%;
+    font-size: 0.7em;
+    
+    
+}
+
+
+/* Etoile de notation */
+
+#blue
+{
+    color: #0065fc;
+}
+
+#grey
+{
+    color: #f2f2f2;
+}
+
+
+/* More */
+
+#more
+{
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding-bottom: 2%;
+}
+
+
+/* ASIDE */
+
+aside
+
+{  
+    background-color: #f2f2f2;
+    border: #f2f2f2 1px solid; 
+    border-radius: 30px;  
+    
+}
+
+/* Title */
+
+#title-aside
+{
+    font-size: 1.6em;
+    font-weight: bolder;
+    margin-left: 9%;
+}
+
+
+#logo-aside
+{
+    font-size: 1em;
+    padding-left: 48%;
+}
+
+
+/* Card Content */
+
+.card-content
+{   
+    display: flex;   
+    width: 80%;
+    margin-left: auto;  
+    margin-right: auto;   
+    border: white 6px solid; 
+    border-radius: 10px;   
+    margin-bottom: 6%;
+}
+
+/* Card image */
+
+
+aside .card-content-image
+{   
+    width: 250px; 
+    height: 150px;   
+}
+
+
+/* Card Description */
+
+.card-content-description
+{
+    width: 400px;
+    display : inline ;
+    background: white;
+    color: black;
+    padding-left: 3%;
+
+}
+
+
+
+/* ACTIVITES A MARSEILLE */
+
+#title-activites
+{
+    font-size: 1.6em;
+    font-weight: bolder;
+    
+}
+
+#features-Marseille
+{   display: flex;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+
+.card-features-Marseille
+{    
+    width: 23%;
+    margin-bottom: 2%;
+}
+   
+
+.features
+{  
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 10%;
+    border: #f2f2f2 1px solid; 
+    border-radius: 30px;
+    box-shadow: 4px 4px 0px #f2f2f2;   
+}
+
+
+.features-image-1-1
+{   
+    height: 510px; 
+    display: block;
+    overflow: hidden;    
+    -webkit-border-radius: 30px 30px 0 0;
+    -moz-border-radius: 30px 30px 0 0;
+    -ms-border-radius: 30px 30px 0 0;
+    -o-border-radius: 30px 30px 0 0;
+    border-radius: 30px 30px 0 0;
+}
+
+
+.features-image-1-2
+{
+    width: 100%;
+    height: 212px;
+    display: block;
+    overflow: hidden;  
+    -webkit-border-radius: 30px 30px 0 0;
+    -moz-border-radius: 30px 30px 0 0;
+    -ms-border-radius: 30px 30px 0 0;
+    -o-border-radius: 30px 30px 0 0;
+    border-radius: 30px 30px 0 0;
+}
+
+
+.features-image-1-3
+{
+    width: 100%;
+    height: 140px;
+    display: block;
+    overflow: hidden;  
+    -webkit-border-radius: 30px 30px 0 0;
+    -moz-border-radius: 30px 30px 0 0;
+    -ms-border-radius: 30px 30px 0 0;
+    -o-border-radius: 30px 30px 0 0;
+    border-radius: 30px 30px 0 0;
+}
+
+.features-image-2-3
+{
+    width: 100%;
+    height: 280px;
+    display: block;
+    overflow: hidden;  
+    -webkit-border-radius: 30px 30px 0 0;
+    -moz-border-radius: 30px 30px 0 0;
+    -ms-border-radius: 30px 30px 0 0;
+    -o-border-radius: 30px 30px 0 0;
+    border-radius: 30px 30px 0 0;
+}
+
+
+.features-description
+{
+    font-size: 1em;
+    font-weight: bolder;
+    text-align: left;
+    padding-top: 3%;
+    padding-left: 4%;
+    padding-bottom: 4%; 
+}
+
+
+/* FOOTER */
+
+footer
+{
+    display: flex;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 220px;
+    justify-content: center;
+    
+
+}
+
+.about
+{
+    width: 33%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3%;
+    list-style-type: none;
+    background-color: #f2f2f2;
+
+}
+
+footer div
+{
+    height: 40px;    
+}
+
+footer a
+{
+
+}
+
