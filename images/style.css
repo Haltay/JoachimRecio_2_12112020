@@ -80,7 +80,14 @@ a
 
 #nav-list div
 {
+   
+}
+
+.color-nav
+{   
+    
     border-top: 3px solid #0065fc;
+    color: #0065fc;
 }
 
 
@@ -150,7 +157,7 @@ a
     display: flex;
     align-items: center;
     width: 70%;    
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 20px;
     margin-top: 40px;
         
@@ -169,8 +176,14 @@ a
 {  
     border: #f2f2f2 3px solid; 
     border-radius: 50px 50px 50px 50px;
-    align-items: center;    
+    align-items: center;
 }
+
+.filtre:hover
+{
+    opacity: 0.3;
+}
+
 
 .logo
 {   
@@ -187,7 +200,7 @@ a
     padding-top: 18px;
     display: inline-block;    
     width: 95%;
-    height: 35px;
+    height: 40px;
     border-radius: 50%;
     background-color: #deebff;
     text-align: center;
@@ -202,9 +215,7 @@ a
     border-radius: inherit;
     padding-top: 7px;     
     width: 70%; 
-    overflow: hidden;
-
-    
+    overflow: hidden;    
 }
 
 .choix input
@@ -259,8 +270,7 @@ img
 #title
 {   
     font-size: 1.6em;
-    font-weight: bolder;
-    
+    font-weight: bolder;    
 }
 
 
