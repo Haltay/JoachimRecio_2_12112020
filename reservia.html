@@ -105,8 +105,8 @@
 
                  <!--Information-->
                  <div id="information">
-                    <p><i class="fas fa-info-circle"></i>
-                        Plus de 500 logmements sont disponibles dans cette ville
+                    <p><i class="fas fa-info-circle" id="logo-information"></i>
+                        Plus de 500 logements sont disponibles dans cette ville
                     </p>
                  </div>                  
                 
@@ -122,7 +122,7 @@
              <article class="description">
 
                 <div id="title-hebergement">                  
-                    <p id="title">Hébergements à Marseille</p>                             
+                    <span id="title">Hébergements à Marseille</span>                             
                 </div>
 
             <Div class="description"></Div>
@@ -229,10 +229,10 @@
             <!-- Les plus populaires-->
 
              <aside>
-
-                <p id="title-aside"> Les plus populaires
-                <i class="fas fa-chart-line" id="logo-aside"></i>                    
-                </p>
+                <span id="title-aside"> Les plus populaires                   
+                    <i class="fas fa-chart-line" id="logo-aside-right"></i>                    
+                </span>
+            </div>
 
 
             <!-- Images latérales -->
@@ -246,7 +246,7 @@
                 <div class="card-content-description">
                      <h2>Hôtel Le soleil du matin</h2>
                      <p>Nuit à partir de <span class="price">128€</span></p>
-                     <p><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="blue"></i></p>
+                     <p class="star"><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="blue"></i></p>
                 </div>
                
              </div>
@@ -262,7 +262,7 @@
                  <div class="card-content-description">                    
                      <h2>Au coeur de l'eau Chambres d'hôtes</h2>
                      <p>Nuit à partir de <span class="price">71€</span></p>
-                     <p><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="grey"></i></p>
+                     <p class="star"><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="grey"></i></p>
                 </div>
                     
              </div>
@@ -277,7 +277,7 @@
                 <div class="card-content-description" alt="Hôtel Tout bleu et Blanc">
                      <h2>Hôtel Tout bleu et Blanc</h2>
                      <p>Nuit à partir de <span class="price">68€</span></p>
-                     <p><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="grey"></i></p>
+                     <p class="star"><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="blue"></i><i class="fas fa-star" id="grey"></i></p>
                 </div>               
 
              </div>
@@ -289,8 +289,9 @@
 
         <!-- Section 3 Activités à Marseille -->
 
-
-            <p id="title-activites">Activités à Marseille</p>
+           <div id="activities">
+            <span id="title-activites">Activités à Marseille</span>
+           </div>
 
             <section id="features-Marseille">
             
@@ -298,7 +299,7 @@
                  <a href="#" alt="Vieux Port">                
                     <div class="features">
                         <div class="features-image-1-1">
-                            <img src="images/activites/3_medium/portM.jpg" alt="Vieux Port">
+                            <img src="images/activites/3_medium/portM.jpg" alt="Vieux Port" id="img-features-vp">
                         </div>
                         <div class="features-description">
                              Vieux Port
@@ -311,9 +312,9 @@
 
                 <section class="card-features-Marseille">
                  <a href="#" alt="Port de Pomègues">
-                    <div class="features">
+                    <div id="features-2-3">
                         <div class="features-image-2-3">
-                            <img src="images/activites/3_medium/pomeguesM.jpg" alt="Port de Pomègues">
+                            <img src="images/activites/2_large/pomeguesL.jpg" alt="Port de Pomègues" id="img-features-2-3">
                         </div>
                         <div class="features-description">
                             Port de Pomègues
@@ -322,9 +323,9 @@
                  </a>
 
                  <a href="#" alt="Îles du Frioul">
-                    <div class="features">
+                    <div id="features-1-3">
                         <div class="features-image-1-3">
-                            <img src="images/activites/3_medium/frioulM.jpg" alt="Îles du Frioul">
+                            <img src="images/activites/3_medium/frioulM.jpg" alt="Îles du Frioul" id="img-features-1-3"> 
                         </div>
                         <div class="features-description">
                             Îles du Frioul
@@ -339,7 +340,7 @@
                  <a href="#" alt="Parc National des Calanques">
                     <div class="features">
                         <div class="features-image-1-1">
-                            <img src="images/activites/3_medium/calanquesM.jpg" alt="Parc National des Calanques">
+                            <img src="images/activites/3_medium/calanquesM.jpg" alt="Parc National des Calanques" class="img-features">
                         </div>
                         <div class="features-description">
                             Parc National des Calanques
@@ -353,7 +354,7 @@
                  <a href="#" alt="Notre-Dame de la Garde">
                     <div class="features">
                         <div class="features-image-1-2">
-                            <img src="images/activites/3_medium/NDM.jpg" alt="Notre-Dame de la Garde">
+                            <img src="images/activites/4_small/NDS.jpg" alt="Notre-Dame de la Garde" class="img-features">
                         </div>
                         <div class="features-description">
                              Notre-Dame de la Garde
@@ -364,7 +365,7 @@
                  <a href="#" alt="Parc Longchamp">
                     <div class="features">
                         <div class="features-image-1-2">
-                            <img src="images/activites/3_medium/longchampM.jpg" alt="Parc Longchamp">
+                            <img src="images/activites/3_medium/longchampM.jpg" alt="Parc Longchamp" id="img-features-lgchp">
                         </div>
                         <div class="features-description">
                              Parc Longchamp

@@ -24,7 +24,7 @@ body
 {
     background: color= #ffffff;
     font-family: 'ralewaythin', 'ralewaythin_italic', Arial, sans-serif;
-    color: #000000;
+    
 }
 
 
@@ -39,6 +39,12 @@ a:hover
     color: #0065FC;
 }
 
+main
+{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
 
 /* Header*/
 
@@ -47,7 +53,7 @@ header
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-bottom: 2%;
+    margin-bottom: 45px;
 }
 
 
@@ -64,44 +70,47 @@ header
 
 #nav-list
 {
-    width: 20%;
+    width: 25%;
     display: flex;
-    padding-right: 10%;    
-    justify-content: space-between;    
+    padding-right: 5%;    
+    justify-content: space-between;
+    margin-top: 35px;
+    font-size: 1.2em;
 }
 
 a
 {
-    font-size: 0.9em;
+    font-size: 1em;
     color: #000000;
     text-decoration: none;
-
+    
 }
 
-#nav-list div
+#nav-list a:hover
 {
-   
+    border-top: 1px solid #0065fc;
+    padding-top: 35px;
 }
 
 .color-nav
 {   
-    color: #0065fc;
-    border-top: 1px solid #0065fc;
-    padding-top: 15px;
+    color: #0065fc;   
 }
 
 
 
 /* Search */
 
-
+#search-town p
+{
+    font-size: 1.1em;
+}
 
 #recherche
 {         
     display: flex;
     width: 500px; 
-    border-radius: 20px;
-    height: 50px;
+    padding-top: 10px;
 }
   
 .local
@@ -156,27 +165,24 @@ a
 {
     display: flex;
     align-items: center;
-    width: 65%;    
+    width: 60%;    
     justify-content: space-between;
     font-size: 20px;
-    margin-top: 40px;
-        
-    
+    margin-top: 30px;   
 }
+
 
 #titre-filtre
 {
     width: 50px;
     font-size: 1.2em;
-    font-weight: bolder;
-    
+    font-weight: bolder;    
 }
 
 .filtre
 {  
     border: #f2f2f2 3px solid; 
     border-radius: 50px 50px 50px 50px;
-    align-items: center;
 }
 
 .filtre:hover
@@ -187,12 +193,9 @@ a
 
 .logo
 {   
-    position: relative;
     float: left; 
     width: 30%;
-    color: #0065fc;    
-    float: left;  
-   
+    color: #0065fc;  
 }
 
 .logo #log
@@ -208,36 +211,47 @@ a
 
 .choix
 {
-    position: relative;  
-    display: inline-block;
-    width: inherit;
-    height: inherit;
-    border-radius: inherit;
+    display: inline-block;    
     padding-top: 7px;     
     width: 70%; 
-    overflow: hidden;    
-}
+    overflow: hidden;
+    border-radius: inherit;
 
+    
+}
+ 
 .choix input
-{    
+{   
     height: 40px;
-    border: #f2f2f2;   
+    border: #f2f2f2;
 }
 
+
+#logo-information
+{
+    background-color: #0065fc;
+    color: white;
+    border-radius: 50px;
+    border: #f2f2f2 1px solid; 
+}
+
+
+
+#information
+{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
 
 /* Annonces principales */
 
 #principal_section
 {
-    display: flex;
-    margin-bottom: auto; 
-}
-
-img
-{
     width: 100%;
-    height: 100%;
-    display: block;
+    display: flex;
+    margin-bottom: 3.5%;
+    
+
 }
 
 
@@ -246,8 +260,6 @@ img
     font-weight: bold;
 
 }
-
-/* div description */
 
 .description
 {  
@@ -264,13 +276,33 @@ img
     
 }
  
+.description img
+{
+    display: block;
+    object-fit: cover;
+    max-width: 500px; 
+    object-fit: cover;
+    width: 100%;
+    height: 100%; 
+    max-height: 180px;     
+    border-radius: 10px 10px 0 0;
+}
 
 /* Title Hebergement */
+
+#title-hebergement
+{
+    z-index: 2;
+    padding-left: 1%;
+    padding-top: 2%
+    
+}
 
 #title
 {   
     font-size: 1.6em;
     font-weight: bolder;    
+     
 }
 
 
@@ -283,27 +315,16 @@ img
     width: 31%; 
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
+    margin-top: 2%;
     margin-bottom: 2%;
     background: white;
     border: white 6px solid; 
     border-radius: 10px;   
+    z-index: 1;
+    
     
 }
 
-
-/* Card Image */
-
-.card-image
-{
-    height: 180px;
-    overflow: hidden;    
-    -webkit-border-radius: 10px 10px 0 0;
-    -moz-border-radius: 10px 10px 0 0;
-    -ms-border-radius: 10px 10px 0 0;
-    -o-border-radius: 10px 10px 0 0;
-    border-radius: 10px 10px 0 0;
-   }
 
 
 /* Card description */
@@ -318,9 +339,7 @@ img
     color: black;
     width: 100%;
     height: 35%;
-    font-size: 0.7em;
-    
-    
+    font-size: 0.7em;    
 }
 
 
@@ -344,6 +363,8 @@ img
     font-size: 1.2em;
     font-weight: bolder;
     padding-bottom: 2%;
+    margin-top: 1%;
+    padding-left: 1%;
 }
 
 
@@ -351,27 +372,40 @@ img
 
 aside
 {  
-    background-color: #f2f2f2;
+    width: 28.5%;
+    background: #f2f2f2;
     border: #f2f2f2 1px solid; 
-    border-radius: 30px;  
+    border-radius: 30px;      
+}
+
+aside img
+{   
+    object-fit: cover;
+    width: 80%;
+    height: 100%;
+    min-width: 250px;      
+    border-radius: 10px 0 0 10px;
     
 }
 
 /* Title */
 
+
 #title-aside
-{
+{ 
+    display: flex;    
+    padding-left: 4%;    
+    padding-top: 6%;
     font-size: 1.6em;
-    font-weight: bolder;
-    margin-left: 4%;
+    font-weight: bolder;    
+    margin-left: 3.8%;    
+    padding-bottom: -1%;
 }
 
-
-#logo-aside
+#logo-aside-right
 {
-    font-size: 1em;
-    padding-left: 55%;
-    
+    font-size: 1em;    
+    margin-left: 42%; 
 }
 
 
@@ -381,20 +415,24 @@ aside
 {   
     display: flex;   
     width: 90%;
+    height: 180px;
     margin-left: auto;  
     margin-right: auto;   
     border: white 6px solid; 
     border-radius: 10px;   
     margin-bottom: 6%;
+    margin-top: 4%;
+    
 }
 
 /* Card image */
 
 
-aside .card-content-image
+.card-content-image
 {   
-    width: 250px; 
-    height: 150px;   
+    width: 180px; 
+    height: 180px;   
+    background-color: white;
 }
 
 
@@ -403,21 +441,33 @@ aside .card-content-image
 .card-content-description
 {
     width: 400px;
-    display : inline ;
+    display : inline-block ;
     background: white;
     color: black;
     padding-left: 3%;
-
 }
 
+.star
+{
+    padding-top: 10%;
+}
 
 
 /* ACTIVITES A MARSEILLE */
 
+#activities
+
+{    
+    padding-left: 1%;
+    padding-top: 2%
+    
+}
+
 #title-activites
 {
     font-size: 1.6em;
-    font-weight: bolder;
+    font-weight: bolder;    
+     
     
 }
 
@@ -425,11 +475,12 @@ aside .card-content-image
 {   display: flex;
     justify-content: space-between;
     width: 100%; 
+    padding-top: 1%;
 }
 
 
 .card-features-Marseille
-{    
+{   
     width: 23%;
     margin-bottom: 2%;
 }
@@ -442,14 +493,13 @@ aside .card-content-image
     margin-bottom: 10%;
     border: #f2f2f2 1px solid; 
     border-radius: 30px;
-    box-shadow: 4px 4px 0px #f2f2f2;   
+    box-shadow: -1px 8px 12px -6px #f2f2f2;   
 }
 
 
 .features-image-1-1
 {   
     height: 510px; 
-    display: block;
     overflow: hidden;    
     -webkit-border-radius: 30px 30px 0 0;
     -moz-border-radius: 30px 30px 0 0;
@@ -458,12 +508,18 @@ aside .card-content-image
     border-radius: 30px 30px 0 0;
 }
 
+#img-features-vp
+{
+    display: block;   
+    width: 130%;
+    height: 100%; 
+}
+
 
 .features-image-1-2
-{
+{   
     width: 100%;
     height: 212px;
-    display: block;
     overflow: hidden;  
     -webkit-border-radius: 30px 30px 0 0;
     -moz-border-radius: 30px 30px 0 0;
@@ -472,12 +528,27 @@ aside .card-content-image
     border-radius: 30px 30px 0 0;
 }
 
+#img-features-lgchp
+{
+    display: block;   
+    width: 100%;
+    height: 100%; 
+}
+
+
+#features-1-3
+{
+    display: flex;
+    flex-flow: row wrap;
+    border: #f2f2f2 1px solid; 
+    border-radius: 30px;
+    box-shadow: -1px 8px 12px -6px #f2f2f2;   
+}
 
 .features-image-1-3
 {
     width: 100%;
-    height: 140px;
-    display: block;
+    height: 140px; 
     overflow: hidden;  
     -webkit-border-radius: 30px 30px 0 0;
     -moz-border-radius: 30px 30px 0 0;
@@ -486,17 +557,51 @@ aside .card-content-image
     border-radius: 30px 30px 0 0;
 }
 
-.features-image-2-3
+#img-features-1-3
 {
+   display: block;   
+   width: 100%;
+   height: 150%;   
+}
+
+#features-1-3
+{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 11%;
+    border: #f2f2f2 1px solid; 
+    border-radius: 30px;
+    box-shadow: -1px 8px 12px -6px #f2f2f2;   
+}
+
+#features-2-3
+{
+    display: flex;
+    flex-flow: row wrap;    
+    border: #f2f2f2 1px solid; 
+    border-radius: 30px;
+    box-shadow: -1px 8px 12px -6px #f2f2f2;   
+}
+
+
+.features-image-2-3
+{  
     width: 100%;
-    height: 280px;
-    display: block;
+    height: 280px; 
     overflow: hidden;  
     -webkit-border-radius: 30px 30px 0 0;
     -moz-border-radius: 30px 30px 0 0;
     -ms-border-radius: 30px 30px 0 0;
     -o-border-radius: 30px 30px 0 0;
-    border-radius: 30px 30px 0 0;
+    border-radius: 30px 30px 0 0;  
+    
+}
+
+#img-features-2-3
+{
+   display: block;   
+   width: 100%;
+   height: 100%;   
 }
 
 
