@@ -1,0 +1,115 @@
+/* Responsive à partir de 1400px */
+
+@media screen and (max-width: 1400px)
+{
+    body
+    {
+        margin: 0;
+    }
+
+    h1 p
+    {
+        flex-wrap: wrap;
+
+    }
+
+    main
+    {
+        overflow: auto;
+    }
+
+    
+    #filters
+    {
+       
+        flex-wrap: wrap;
+    }
+
+    #titre-filtre
+    {                
+        min-width: 20%;
+    }
+
+    section
+    {
+        flex-wrap: wrap-reverse;
+    }
+    
+    
+
+   article
+   {
+       min-width: 465px;
+       flex-wrap: wrap;
+       background-color: white;
+   }
+
+   .description
+   {
+    background-color: white;
+    border: white;
+   }
+
+   .card
+   {
+       margin-left: 3%;
+       min-width: 422px;
+       box-shadow: 0px 20px 50px 7px #f2f2f2;
+   }
+
+   #more
+   {
+       padding-left: 3%;
+   }
+
+/* ACTIVITES A MARSEILLE */
+
+
+   #activities
+   { 
+       width: 422px;
+       
+
+   }
+
+   .card-features-Marseille
+   {
+       flex-wrap: wrap;
+       width: 422px;
+       height: 190px;
+   }
+
+
+
+   .features #features-2-3 #features-1-3
+   {
+    
+    width: 422px;
+    height: 190px;
+    padding-bottom: 20%;    
+   }
+
+   #features-Marseille img
+   {
+       height: 130px;
+       width: 422px;
+       object-fit: cover;
+   }
+
+   .features-description
+   {
+       height: 55px;
+   }
+
+   .features-image-1-1 .features-image-2-3 .features-image-1-3 .features-image-1-1 .features-image-1-2
+   {
+       height: 130px;
+       width: 422px;
+       object-fit: contain;
+      
+   }
+  
+
+  
+
+}

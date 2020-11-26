@@ -187,7 +187,8 @@ a
 
 .filtre:hover
 {
-    opacity: 0.3;
+    opacity: 0.7;
+    box-shadow: 0px 10px 13px -7px #000000, 0px 0px 49px 20px #0065fc;
 }
 
 
@@ -249,16 +250,13 @@ a
 {
     width: 100%;
     display: flex;
-    margin-bottom: 3.5%;
+    margin-bottom: 3.5%;  
     
-
 }
-
 
 .price
 {
     font-weight: bold;
-
 }
 
 .description
@@ -292,10 +290,11 @@ a
 
 #title-hebergement
 {
+    display: flex;
     z-index: 2;
     padding-left: 1%;
-    padding-top: 2%
-    
+    padding-top: 4%;  
+        
 }
 
 #title
@@ -320,8 +319,7 @@ a
     background: white;
     border: white 6px solid; 
     border-radius: 10px;   
-    z-index: 1;
-    
+    z-index: 1;  
     
 }
 
@@ -339,7 +337,7 @@ a
     color: black;
     width: 100%;
     height: 35%;
-    font-size: 0.7em;    
+    font-size: 0.9em;    
 }
 
 
@@ -372,7 +370,7 @@ a
 
 aside
 {  
-    width: 28.5%;
+    width: 490px;
     background: #f2f2f2;
     border: #f2f2f2 1px solid; 
     border-radius: 30px;      
@@ -394,18 +392,18 @@ aside img
 #title-aside
 { 
     display: flex;    
-    padding-left: 4%;    
-    padding-top: 6%;
+    padding-top: 5%;
     font-size: 1.6em;
     font-weight: bolder;    
-    margin-left: 3.8%;    
-    padding-bottom: -1%;
+    margin-left: 6%;    
+    
 }
 
-#logo-aside-right
+#logo-aside
 {
     font-size: 1em;    
-    margin-left: 42%; 
+    margin-left: 38%; 
+    
 }
 
 
@@ -414,7 +412,7 @@ aside img
 .card-content
 {   
     display: flex;   
-    width: 90%;
+    width: 410px;
     height: 180px;
     margin-left: auto;  
     margin-right: auto;   
@@ -445,6 +443,8 @@ aside img
     background: white;
     color: black;
     padding-left: 3%;
+    font-size: 0.9em;    
+
 }
 
 .star
@@ -484,6 +484,8 @@ aside img
     width: 23%;
     margin-bottom: 2%;
 }
+
+
    
 
 .features
