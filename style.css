@@ -156,7 +156,15 @@ a
     width: 102%;
     height: 50px;    
     border: #f2f2f2 1px solid; 
+    display:inline-block
 }
+
+#loupe 
+{
+    display:none
+}
+
+
 
 
 /* Filtres */
@@ -174,7 +182,7 @@ a
 
 #titre-filtre
 {
-    width: 50px;
+    width: 80px;
     font-size: 1.2em;
     font-weight: bolder;    
 }
@@ -413,7 +421,7 @@ aside img
 {   
     display: flex;   
     width: 410px;
-    height: 180px;
+    height: 205px;
     margin-left: auto;  
     margin-right: auto;   
     border: white 6px solid; 
@@ -429,7 +437,7 @@ aside img
 .card-content-image
 {   
     width: 180px; 
-    height: 180px;   
+    height: auto;   
     background-color: white;
 }
 
@@ -449,7 +457,7 @@ aside img
 
 .star
 {
-    padding-top: 10%;
+    padding-top: 28%;
 }
 
 
@@ -648,8 +656,4 @@ footer div
     height: 40px;    
 }
 
-footer a
-{
-
-}
 
