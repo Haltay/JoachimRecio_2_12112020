@@ -156,7 +156,6 @@ a
     width: 102%;
     height: 50px;    
     border: #f2f2f2 1px solid; 
-    display:inline-block
 }
 
 #loupe 
@@ -256,7 +255,6 @@ a
 
 #principal_section
 {
-    width: 100%;
     display: flex;
     margin-bottom: 3.5%;  
     
@@ -272,7 +270,6 @@ a
     width: 70%;
     display: flex;
     flex-wrap: wrap;
-    align-content: stretch; 
     background: #f2f2f2;    
     margin-right: 2%;
     padding-right: 1%;
@@ -286,8 +283,6 @@ a
 {
     display: block;
     object-fit: cover;
-    max-width: 500px; 
-    object-fit: cover;
     width: 100%;
     height: 100%; 
     max-height: 180px;     
@@ -298,8 +293,6 @@ a
 
 #title-hebergement
 {
-    display: flex;
-    z-index: 2;
     padding-left: 1%;
     padding-top: 4%;  
         
@@ -317,8 +310,6 @@ a
 
 .card
 {    
-    display: flex;
-    flex-flow: row wrap;
     width: 31%; 
     margin-left: auto;
     margin-right: auto;
@@ -326,9 +317,7 @@ a
     margin-bottom: 2%;
     background: white;
     border: white 6px solid; 
-    border-radius: 10px;   
-    z-index: 1;  
-    
+    border-radius: 10px;
 }
 
 
@@ -337,14 +326,6 @@ a
 
 .card-description
 {    
-    text-align: left;
-    margin: 0;
-    left: auto;
-    right: auto;
-    bottom: -3px;
-    color: black;
-    width: 100%;
-    height: 35%;
     font-size: 0.9em;    
 }
 
@@ -427,8 +408,7 @@ aside img
     border: white 6px solid; 
     border-radius: 10px;   
     margin-bottom: 6%;
-    margin-top: 4%;
-    
+      
 }
 
 /* Card image */
@@ -437,8 +417,7 @@ aside img
 .card-content-image
 {   
     width: 180px; 
-    height: auto;   
-    background-color: white;
+   
 }
 
 
@@ -446,10 +425,7 @@ aside img
 
 .card-content-description
 {
-    width: 400px;
-    display : inline-block ;
     background: white;
-    color: black;
     padding-left: 3%;
     font-size: 0.9em;    
 
@@ -482,7 +458,6 @@ aside img
 #features-Marseille
 {   display: flex;
     justify-content: space-between;
-    width: 100%; 
     padding-top: 1%;
 }
 
@@ -498,8 +473,6 @@ aside img
 
 .features
 {  
-    display: flex;
-    flex-flow: row wrap;
     margin-bottom: 10%;
     border: #f2f2f2 1px solid; 
     border-radius: 30px;
@@ -511,30 +484,19 @@ aside img
 {   
     height: 510px; 
     overflow: hidden;    
-    -webkit-border-radius: 30px 30px 0 0;
-    -moz-border-radius: 30px 30px 0 0;
-    -ms-border-radius: 30px 30px 0 0;
-    -o-border-radius: 30px 30px 0 0;
     border-radius: 30px 30px 0 0;
 }
 
 #img-features-vp
 {
-    display: block;   
-    width: 130%;
     height: 100%; 
 }
 
 
 .features-image-1-2
 {   
-    width: 100%;
     height: 212px;
     overflow: hidden;  
-    -webkit-border-radius: 30px 30px 0 0;
-    -moz-border-radius: 30px 30px 0 0;
-    -ms-border-radius: 30px 30px 0 0;
-    -o-border-radius: 30px 30px 0 0;
     border-radius: 30px 30px 0 0;
 }
 
@@ -548,46 +510,29 @@ aside img
 
 #features-1-3
 {
-    display: flex;
-    flex-flow: row wrap;
-    border: #f2f2f2 1px solid; 
-    border-radius: 30px;
-    box-shadow: -1px 8px 12px -6px #f2f2f2;   
-}
-
-.features-image-1-3
-{
-    width: 100%;
-    height: 140px; 
-    overflow: hidden;  
-    -webkit-border-radius: 30px 30px 0 0;
-    -moz-border-radius: 30px 30px 0 0;
-    -ms-border-radius: 30px 30px 0 0;
-    -o-border-radius: 30px 30px 0 0;
-    border-radius: 30px 30px 0 0;
-}
-
-#img-features-1-3
-{
-   display: block;   
-   width: 100%;
-   height: 150%;   
-}
-
-#features-1-3
-{
-    display: flex;
-    flex-flow: row wrap;
     margin-top: 11%;
     border: #f2f2f2 1px solid; 
     border-radius: 30px;
     box-shadow: -1px 8px 12px -6px #f2f2f2;   
 }
 
-#features-2-3
+
+.features-image-1-3
 {
-    display: flex;
-    flex-flow: row wrap;    
+    height: 140px; 
+    overflow: hidden; 
+    border-radius: 30px 30px 0 0;
+}
+
+#img-features-1-3
+{
+   width: 100%;
+   height: 150%;   
+}
+
+
+#features-2-3
+{ 
     border: #f2f2f2 1px solid; 
     border-radius: 30px;
     box-shadow: -1px 8px 12px -6px #f2f2f2;   
@@ -596,30 +541,22 @@ aside img
 
 .features-image-2-3
 {  
-    width: 100%;
     height: 280px; 
     overflow: hidden;  
-    -webkit-border-radius: 30px 30px 0 0;
-    -moz-border-radius: 30px 30px 0 0;
-    -ms-border-radius: 30px 30px 0 0;
-    -o-border-radius: 30px 30px 0 0;
     border-radius: 30px 30px 0 0;  
     
 }
 
 #img-features-2-3
 {
-   display: block;   
    width: 100%;
    height: 100%;   
 }
 
 
 .features-description
-{
-    font-size: 1em;
+{  
     font-weight: bolder;
-    text-align: left;
     padding-top: 3%;
     padding-left: 4%;
     padding-bottom: 4%; 
@@ -632,7 +569,6 @@ footer
 {
     display: flex;
     background-color: #f2f2f2;
-    width: 100%;
     height: 220px;
     justify-content: center;
     
@@ -641,12 +577,7 @@ footer
 
 .about
 {
-    width: 33%;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 3%;
-    list-style-type: none;
+    width: 33%; 
     background-color: #f2f2f2;
 
 }
