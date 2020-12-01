@@ -24,7 +24,6 @@ body
 {
     background: color= #ffffff;
     font-family: 'ralewaythin', 'ralewaythin_italic', Arial, sans-serif;
-    
 }
 
 
@@ -41,8 +40,8 @@ a:hover
 
 main
 {
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 3%;
+    margin-left: 3%;
 }
 
 
@@ -53,7 +52,7 @@ header
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-bottom: 45px;
+    margin-bottom: 2%;
 }
 
 
@@ -61,8 +60,13 @@ header
 
 #logo-header img
 {
-    width: 97px;
-    height: 34px;
+    width: 40%;
+    
+}
+
+#mobile-inscrire
+{
+    display: none;
 }
 
 
@@ -74,8 +78,8 @@ header
     display: flex;
     padding-right: 5%;    
     justify-content: space-between;
-    margin-top: 35px;
-    font-size: 1.2em;
+    
+    font-size: 1.4em;
 }
 
 a
@@ -92,12 +96,6 @@ a
     padding-top: 35px;
 }
 
-.color-nav
-{   
-    color: #0065fc;   
-}
-
-
 
 /* Search */
 
@@ -109,8 +107,7 @@ a
 #recherche
 {         
     display: flex;
-    width: 500px; 
-    padding-top: 10px;
+    width: 23%; 
 }
   
 .local
@@ -142,7 +139,7 @@ a
 {
     cursor: pointer;   
     width: 100%;
-    height: 44px;
+    height: 90%;
     border: #f2f2f2 1px solid;
     font-weight: bolder;    
 }
@@ -154,13 +151,13 @@ a
     background-color: #0065fc;  
     border-radius: 0 20px 20px 0;
     width: 102%;
-    height: 50px;    
+    height: 100%;    
     border: #f2f2f2 1px solid; 
 }
 
 #loupe 
 {
-    display:none
+    display: none;
 }
 
 
@@ -174,14 +171,14 @@ a
     align-items: center;
     width: 60%;    
     justify-content: space-between;
-    font-size: 20px;
-    margin-top: 30px;   
+    font-size: 110%;
+    margin-top: 1.5%;   
 }
 
 
 #titre-filtre
 {
-    width: 80px;
+    width: 3%;
     font-size: 1.2em;
     font-weight: bolder;    
 }
@@ -195,7 +192,7 @@ a
 .filtre:hover
 {
     opacity: 0.7;
-    box-shadow: 0px 10px 13px -7px #000000, 0px 0px 49px 20px #0065fc;
+    box-shadow: 0px 10px 13px -7px #000000, 0px 0px 49px -9px #0065fc;
 }
 
 
@@ -208,7 +205,7 @@ a
 
 .logo #log
 {
-    padding-top: 18px;
+    padding-top: 35%;
     display: inline-block;    
     width: 95%;
     height: 40px;
@@ -220,7 +217,7 @@ a
 .choix
 {
     display: inline-block;    
-    padding-top: 7px;     
+    padding-top: 5%;     
     width: 70%; 
     overflow: hidden;
     border-radius: inherit;
@@ -247,8 +244,8 @@ a
 
 #information
 {
-    padding-top: 15px;
-    padding-bottom: 20px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
 }
 
 /* Annonces principales */
@@ -318,6 +315,7 @@ a
     background: white;
     border: white 6px solid; 
     border-radius: 10px;
+    box-shadow: 7px 7px 16px 2px #707070;
 }
 
 
@@ -359,7 +357,7 @@ a
 
 aside
 {  
-    width: 490px;
+    width: 30%;
     background: #f2f2f2;
     border: #f2f2f2 1px solid; 
     border-radius: 30px;      
@@ -401,13 +399,14 @@ aside img
 .card-content
 {   
     display: flex;   
-    width: 410px;
+    width: 88%;
     height: 205px;
     margin-left: auto;  
     margin-right: auto;   
     border: white 6px solid; 
     border-radius: 10px;   
     margin-bottom: 6%;
+    box-shadow: 7px 7px 16px 2px #707070;
       
 }
 
@@ -502,6 +501,7 @@ aside img
 
 #img-features-lgchp
 {
+    object-fit: cover;
     display: block;   
     width: 100%;
     height: 100%; 
@@ -533,6 +533,7 @@ aside img
 
 #features-2-3
 { 
+   
     border: #f2f2f2 1px solid; 
     border-radius: 30px;
     box-shadow: -1px 8px 12px -6px #f2f2f2;   
@@ -549,6 +550,7 @@ aside img
 
 #img-features-2-3
 {
+   object-fit: cover;
    width: 100%;
    height: 100%;   
 }
@@ -579,12 +581,13 @@ footer
 {
     width: 33%; 
     background-color: #f2f2f2;
+    padding-left: 3%;
 
 }
 
 footer div
 {
-    height: 40px;    
+    height: 55%;    
 }
 
 

@@ -6,8 +6,11 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" media="screen and (max-width: 1400px)" href="responsive.css">
-
+        <link rel="stylesheet" media="screen and (max-width: 767px)" href="mobile.css">
+        
+        
+        
+        <!-- <link rel="stylesheet" media="screen and (min-width: 601px) and (max-width: 900px)" href="tablette.css"> -->
         <title>Reservia</title>
         <script src="https://kit.fontawesome.com/9e03e7945a.js" crossorigin="anonymous"></script> 
 
@@ -23,13 +26,18 @@
         <!-- Header -->
              <header>
                  <div id="logo-header">
-                     <img src="images/logo/Reservia@3x.png" id="header" alt="Reservia, le site de réservation">
-                 </div>
+                     <img src="images/logo/Reservia@3x.png" id="header-img" alt="Reservia, le site de réservation">
+                     <div id="mobile-inscrire"><a href="#" class="color-nav" class="inscription">S'inscrire</a>
+                     </div>                    
+                    
+                </div>
 
+                    
+                 
                      <div id="nav-list">
                         <div class="header-responsive1"><a href="#title" class="color-nav">Hébergements</a></div>
                         <div class="header-responsive2"><a href="#title-activites">Activités</a></div>
-                        <div id="header-inscription"><a href="#" class="color-nav" id="inscription">S'inscrire</a></div>
+                        <div id="header-inscription"><a href="#" class="color-nav" class="inscription">S'inscrire</a></div>
                      </div>
                  
 
@@ -49,7 +57,7 @@
                         </div>
                         
                         <div class="local">
-                            <input type="text" id="text">
+                            <input type="text" id="text" placeholder="Marseille, France">
                         </div>
 
                         <div class="local">
@@ -320,7 +328,7 @@
                  <a href="#" alt="Port de Pomègues">
                     <div id="features-2-3">
                         <div class="features-image-2-3">
-                            <img src="images/activites/2_large/pomeguesL.jpg" alt="Port de Pomègues" id="img-features-2-3">
+                            <img src="images/activites/3_medium/pomeguesM.jpg" alt="Port de Pomègues" id="img-features-2-3">
                         </div>
                         <div class="features-description">
                             Port de Pomègues
@@ -393,7 +401,7 @@
 
                  <div class="about">            
 
-                     <h2>A propos</h2>
+                     <h2 id="a-propos">A propos</h2>
                      <div class="list">                        
                              <div><a href="#">Fonctionnement du site</a></div>
                              <div><a href="#">Conditions générales de ventes</a></div>
