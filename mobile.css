@@ -1,4 +1,21 @@
-/* Responsive 600px max */
+/* Responsive 767px max */
+
+/* BODY */
+ 
+body
+{
+    margin: 0;
+}
+
+h1 p
+{
+    flex-wrap: wrap;
+}
+
+  
+
+/* HEADER */
+
 
     header
     {
@@ -6,31 +23,32 @@
         flex-direction: column;
     }
 
-    #nav-list
-    {
-        flex-wrap: wrap-reverse;
-        width: 350px;
-        height: 135px;
-               
-    }
+  
 
     #logo-header
     {
-      justify-content: space-around;  
+        justify-content: space-around;  
         align-items: center;
+        float: none;
     }
 
-    
+     #header-inscription
+    {
+        display: none;
+    }
 
     #mobile-inscrire
     {
         display: inline-block;
        
     }  
-      
-    #header-inscription
+
+    #nav-list
     {
-        display: none;
+        flex-wrap: wrap-reverse;
+        width: 20%;
+        height: 30%;
+               
     }
 
 
@@ -66,18 +84,6 @@
     }  
     
 
-
-    body
-    {
-        margin: 0;
-    }
-
-    h1 p
-    {
-        flex-wrap: wrap;
-    }
-
-
 /* RECHERCHE */
 
     #recherche
@@ -111,9 +117,6 @@
     }
 
 
-
-
-
 /* FILTRES */
     
     #filters
@@ -135,19 +138,25 @@
 
 /* SECTION PRINCIPALE */
 
-    section
+    #title
     {
-        flex-wrap: wrap-reverse;
-        margin-right: 0;
-        
+        font-size: 1.42em;
+    }
+
+
+    section 
+    {
+       flex-wrap: wrap-reverse;
+       width: 110%;   
+      
     }
         
-
    article
    {
-       min-width: 375px;
+       width: 90%;
        flex-wrap: wrap;
        background-color: white;
+       padding-top: 8%;
       
    }
 
@@ -157,13 +166,11 @@
     border: white;
     margin-right: 0;
     padding-right: 0;
-    padding-left: 10px;
    }
 
    .card
    {
        height: 200px;
-       margin-left: 3%;
        min-width: 330px;
        box-shadow: 0px 20px 50px 7px #f2f2f2;
    }
@@ -191,8 +198,9 @@
 
    #more
    {
-       width: 1000px;
-       padding-left: 15px;
+       
+       padding-top: 5%;
+       font-weight: bolder;
    }
 
 
@@ -200,18 +208,22 @@
 
    aside
    {
-       width: 375px;
+       width: 90%;
    }
 
    #title-aside
    {
-       width: 330px;
+       margin-left: 3%;
+       margin-top: 0;
+       width: 90%;
+       font-size: 1.41em;
        
    }
 
     #logo-aside
    {
-       margin-left: 82px;
+       margin-left: 30%;
+       
    }
 
    .card-content
@@ -239,12 +251,16 @@
 
 /* ACTIVITES A MARSEILLE */
 
+   #activities
+   {
+       padding-top: 15%;
+       padding-left: 0;
+   }
+
   #features-Marseille
    {
        display: flex;
-       flex-wrap: wrap;
-       margin-left: 23px;
-      
+       flex-wrap: wrap;      
    }
 
 
@@ -258,16 +274,11 @@
        
    }
 
-   #title-activites
-   {
-       padding-left: 20px;
-   }   
-
-
+ 
    .features 
    {    
        width: 335px;
-       height: 190px;        
+       height: 180px;        
    }
 
    #features-2-3
@@ -338,24 +349,35 @@
   
 /* FOOTER */
 
-   footer 
-   {
-    display: block;
-    flex-wrap: wrap;
-    flex-direction: column;
-    min-width: 422px;
-   }
+footer 
+{
+ display: block;
+ flex-wrap: wrap;
+ flex-direction: column;
+ width: 440px;
+}
 
-   .about
-   {
-       height: 180px;
-       padding-left: 7%;
-       min-width: 1000px; 
+footer h2
+{
+    font-size: 1.4em;
+}
 
-   }
+.about
+{
+    height: 160px;
+    padding-left: 7%;
+    min-width: 1000px; 
+    padding-bottom: 1%;
+    padding-top: 2%;
+}
 
-   #end
-   {
-       margin-top: -40px;
-   }
+.list
+{
+    height: 35%;
+}
 
+#end
+{
+    margin-top: -40px;
+}
+   
