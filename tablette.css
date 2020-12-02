@@ -1,4 +1,4 @@
-/* Responsive 767px max */
+/* Responsive 768px à 1388px */
 
 /* BODY */
  
@@ -29,11 +29,15 @@ main
         padding-bottom: 3%;
     }
 
-  
+    #logo-header
+    {
+        width: 100%;
+    }
+
     #logo-header img
     {
         height: auto;
-        width: 30%;
+        width: 15%;
         padding-top: 5%;
         padding-left: 5%;
     }
@@ -109,33 +113,57 @@ main
         padding-right: -5%;
     }
 
-    #recherche
-    {
-        width: 90%;         
-    }
-
-  
-   #la
+   
+   #recherche
    {
-       width: 0%;
+       width: 70%;
+       margin-left: 5%;
    }
 
    #loupe 
     {
-        display: inline-block;
-        color: white;
-        background-color: #0065fc;
+        display: none
+    }
+
+    
+    #la
+    {
+        background-color: #f2f2f2;
+        border-radius: 20px 0 0 20px;
+        text-align: center;
+    }
+
+    #ici
+    {
+        color: black;
+        background-color: #f2f2f2;
         text-align: center;    
-        border-radius: 20px 20px 20px 20px;
-        width: 55px;
+        border-radius: 20px 0 0 20px;
+        width: 50%;
         height: 35px;    
         padding-top: 15px;
         margin: 0 auto;  
     }
 
-    #rechercher 
+
+    #text
     {
-        display: none;
+        cursor: pointer;   
+        width: 100%;
+        height: 90%;
+        border: #f2f2f2 1px solid;
+        font-weight: bolder;    
+    }
+
+
+    #rechercher
+    {    
+        color: white;
+        background-color: #0065fc;  
+        border-radius: 0 20px 20px 0;
+        width: 102%;
+        height: 100%;    
+        border: #f2f2f2 1px solid; 
     }
 
 
@@ -156,20 +184,23 @@ main
     .filtre
     {
         margin-top: 15px;
-        width: 180px;        
+        margin-left: 10%;
+        justify-content: space-around;   
+        margin-right: -15%;    
+          
     }
 
     #information
     {
         width: 84.5%;
         font-size: 1.06em;
-        padding-bottom: 8%;
+        padding-bottom: 2%;
+        padding-left: 8.5%;
     }
 
     #information-description
     {
-      margin-left: 2%;  
-      
+      margin-left: 2%;        
     }
   
 
@@ -177,12 +208,14 @@ main
 
     #title
     {
-        font-size: 1.42em;        
+        font-size: 1.6em;    
+           
     }
 
     #title-hebergement
     {
-        margin-bottom: 6%;
+        margin-bottom: 1%;
+        padding-left: 5%; 
     }
 
     section 
@@ -198,6 +231,7 @@ main
        flex-wrap: wrap;
        background-color: white;
        padding-top: 8%;
+       flex-direction: column;
       
    }
 
@@ -208,12 +242,14 @@ main
     margin-right: 0;
     padding-right: 0;
     padding-left: 4%;
+    padding-top: 2%;
    }
 
    .card
    {
-       height: 200px;
-       min-width: 330px;
+       width: 65%;
+       height: 200px; 
+       margin-right: 6%;    
        box-shadow: 0px 20px 50px 7px #f2f2f2;
    }
 
@@ -243,6 +279,7 @@ main
    {       
        padding-top: 5%;
        font-weight: bolder;
+       padding-left: 6%;
    }
 
 
@@ -251,28 +288,29 @@ main
    aside
    {
        width: 100%;
+       height: 750px;
        margin-left: -4.1%;
-       border-radius: 0;
        padding-top: 2%;
    }
 
    #title-aside
    {
-       margin-left: 9%;
+       margin-left: 11%;
        margin-top: 0;
        width: 90%;
-       font-size: 1.41em;  
+       font-size: 1.6em;         
    }
 
     #logo-aside
    {
-       margin-left: 32%;       
+       margin-left: 50%;       
    }
 
    .card-content
-   {
-       width: 330px;
-       height: 140px;
+   {    
+      
+       width: 45%;
+       height: 18.5%;
    }
 
    .card-content-image
@@ -306,23 +344,24 @@ main
 
    #activities
    {
-       padding-top: 15%;
-       padding-left: 5%;     
+      
+       padding-left: 9%;     
    }
 
   #features-Marseille
    {
        display: flex;
        flex-wrap: wrap;
-       padding-left: 5%;
-     
+       flex-direction: column;
+       padding-left: 20%;
+       margin-left: 8.5%
    }
 
 
    .card-features-Marseille
    {
        flex-wrap: wrap;
-       min-width: 375px;
+       width: 375px;
        min-height: 190px;
        display: block;
        margin-top: 15px;        
@@ -405,10 +444,10 @@ main
 
 footer 
 {
- display: block;
+ display: flex;
  flex-wrap: wrap;
- flex-direction: column;
- width: 440px;
+ width: 100%;
+ height: 600px;
 }
 
 footer h2
@@ -419,8 +458,7 @@ footer h2
 .about
 {
     height: 160px;
-    padding-left: 7%;
-    min-width: 1000px; 
+    padding-left: 7%;    
     padding-bottom: 1%;
     padding-top: 2%;
 }
@@ -432,6 +470,6 @@ footer h2
 
 #end
 {
-    margin-top: -40px;
+    margin-top: -33%;
+    margin-left: 40%;
 }
-   
