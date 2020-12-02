@@ -12,7 +12,11 @@ h1 p
     flex-wrap: wrap;
 }
 
-  
+main
+{
+    margin:0
+}
+
 
 /* HEADER */
 
@@ -21,75 +25,94 @@ h1 p
     {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        padding-bottom: 3%;
     }
 
   
-
-    #logo-header
+    #logo-header img
     {
-        justify-content: space-around;  
-        align-items: center;
-        float: none;
+        height: auto;
+        width: 30%;
+        padding-top: 5%;
+        padding-left: 5%;
     }
+    
 
-     #header-inscription
+    #mobile-inscrire
+    {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 1.2em;
+        margin-top: -30px;
+        margin-right: 5%;
+
+    }  
+
+    #header-inscription
     {
         display: none;
     }
 
-    #mobile-inscrire
-    {
-        display: inline-block;
-       
-    }  
 
+    #nav-list a:hover
+    {
+        border-top: none;
+    }
+   
     #nav-list
     {
-        flex-wrap: wrap-reverse;
-        width: 20%;
-        height: 30%;
-               
+        width: 100%;        
+        font-size: 1.2em;
+        padding-top: 10%;  
+        padding-right: 0;     
+        
     }
 
-
-    .header-responsive1
+  header span
     {
-        margin-right: 40px;
-        margin-left: -60px;
-    }
-    
-    .header-responsive2
-    {
-        margin-left: 40px;
+        text-align: center;
+        width: 100%;
+        border-bottom: 3px solid #f2f2f2;
+        padding-bottom: 10px;
+       
     }
 
-    #nav-list :nth-child(3) 
+    header span:hover
     {
-        order: 1;
+        border-bottom: 3px solid #0065fc;
+        padding-bottom: 15px;                
     }
 
-    #nav-list :nth-of-type(3) 
-    {
-        flex: 1 100%;
-    }
-
-    #nav-list :nth-of-type(1) 
-    {
-        flex: 1 ;
-    }
-
-    #nav-list :nth-of-type(2) 
-    {
-        flex: 1 ;
-    }  
-    
+   
 
 /* RECHERCHE */
 
+    #search
+    {
+        padding-left: 5%;
+    }
+
+    #search-town h1
+    {
+        font-size: 1.5em;
+        width: 81%;
+        padding-left: 1%;
+        padding-right: 5%;
+        text-align: justify;
+    }
+
+    #search-town p
+    {
+        padding-left: 1%;
+        font-size: 1em;
+        padding-bottom: 4%;
+        padding-right: -5%;
+    }
+
     #recherche
     {
-        width: 80%; 
-        margin: 0;
+        width: 90%;         
     }
 
   
@@ -122,11 +145,13 @@ h1 p
     #filters
     {
         flex-wrap: wrap;
+        padding-top: 5%;
     }
 
     #titre-filtre
     {
         width: 100%;
+        padding-left: 3%;
     }
 
     .filtre
@@ -134,15 +159,31 @@ h1 p
         margin-top: 15px;
         width: 180px;        
     }
+
+    #information
+    {
+        width: 84.5%;
+        font-size: 1.06em;
+    }
+
+    #information-description
+    {
+      margin-left: 2%;  
+      
+    }
   
 
 /* SECTION PRINCIPALE */
 
     #title
     {
-        font-size: 1.42em;
+        font-size: 1.42em;        
     }
 
+    #title-hebergement
+    {
+        margin-bottom: 3%;
+    }
 
     section 
     {
@@ -166,6 +207,7 @@ h1 p
     border: white;
     margin-right: 0;
     padding-right: 0;
+    padding-left: 3%;
    }
 
    .card
@@ -189,6 +231,7 @@ h1 p
    .card-description h2
    {
        margin-bottom: 10px;
+       font-size: 1.3em;
    }
 
    .card-description p
@@ -197,8 +240,7 @@ h1 p
    }
 
    #more
-   {
-       
+   {       
        padding-top: 5%;
        font-weight: bolder;
    }
@@ -208,22 +250,23 @@ h1 p
 
    aside
    {
-       width: 90%;
+       width: 100%;
+       margin-left: -4.5%;
+       border-radius: 0;
    }
 
    #title-aside
    {
-       margin-left: 3%;
+       margin-left: 9%;
        margin-top: 0;
        width: 90%;
-       font-size: 1.41em;
-       
+       font-size: 1.41em;   
+
    }
 
     #logo-aside
    {
-       margin-left: 30%;
-       
+       margin-left: 32%;       
    }
 
    .card-content
@@ -240,8 +283,18 @@ h1 p
    .card-content-description
    {
        height: 140px;
-       margin-bottom: -30px;
+       margin-bottom: -30px;    
    }
+
+   .card-content-description h2
+   {
+       font-size: 1.4em;
+   }
+
+   .card-content-description p
+    {
+    font-size: 1em;
+    }
 
    .star
    {
@@ -254,13 +307,15 @@ h1 p
    #activities
    {
        padding-top: 15%;
-       padding-left: 0;
+       padding-left: 5%;     
    }
 
   #features-Marseille
    {
        display: flex;
-       flex-wrap: wrap;      
+       flex-wrap: wrap;
+       padding-left: 5%;
+     
    }
 
 
@@ -270,8 +325,7 @@ h1 p
        min-width: 375px;
        min-height: 190px;
        display: block;
-       margin-top: 15px;       
-       
+       margin-top: 15px;        
    }
 
  

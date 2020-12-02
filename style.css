@@ -78,8 +78,7 @@ header
     width: 25%;
     display: flex;
     padding-right: 5%;    
-    justify-content: space-between;
-    
+    justify-content: space-between;    
     font-size: 1.4em;
 }
 
@@ -246,9 +245,17 @@ a
 
 #information
 {
+    display: flex;
+    align-items: baseline;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
 }
+
+#information-description
+{
+    padding-left: 0.5%;
+}
+
 
 /* Annonces principales */
 
