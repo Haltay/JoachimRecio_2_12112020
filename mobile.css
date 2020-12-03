@@ -20,7 +20,6 @@ main
 
 /* HEADER */
 
-
     header
     {
         display: flex;
@@ -28,7 +27,6 @@ main
         width: 100%;
         padding-bottom: 3%;
     }
-
   
     #logo-header img
     {
@@ -38,7 +36,6 @@ main
         padding-left: 5%;
     }
     
-
     #mobile-inscrire
     {
         display: flex;
@@ -46,14 +43,12 @@ main
         font-size: 1.2em;
         margin-top: -30px;
         margin-right: 5%;
-
     }  
 
     #header-inscription
     {
         display: none;
     }
-
 
     #nav-list a:hover
     {
@@ -65,8 +60,7 @@ main
         width: 100%;        
         font-size: 1.2em;
         padding-top: 10%;  
-        padding-right: 0;     
-        
+        padding-right: 0;         
     }
 
   header span
@@ -74,8 +68,7 @@ main
         text-align: center;
         width: 100%;
         border-bottom: 3px solid #f2f2f2;
-        padding-bottom: 10px;
-       
+        padding-bottom: 10px;       
     }
 
     header span:hover
@@ -113,12 +106,11 @@ main
     {
         width: 90%;         
     }
-
   
-   #la
-   {
-       width: 0%;
-   }
+    #la
+    {
+        width: 0%;
+    }
 
    #loupe 
     {
@@ -168,8 +160,7 @@ main
 
     #information-description
     {
-      margin-left: 2%;  
-      
+      margin-left: 2%;      
     }
   
 
@@ -188,8 +179,7 @@ main
     section 
     {
        flex-wrap: wrap-reverse;
-       width: 110%;   
-      
+       width: 110%;       
     }
         
    article
@@ -197,17 +187,16 @@ main
        width: 90%;
        flex-wrap: wrap;
        background-color: white;
-       padding-top: 8%;
-      
+       padding-top: 8%;      
    }
 
    .description
    {
-    background-color: white;
-    border: white;
-    margin-right: 0;
-    padding-right: 0;
-    padding-left: 4%;
+       background-color: white;
+       border: white;
+       margin-right: 0;
+       padding-right: 0;
+       padding-left: 4%;
    }
 
    .card
@@ -219,8 +208,7 @@ main
 
    .card-image
    {
-       height: 115px;
-       
+       height: 115px;       
    } 
 
    .card-description
@@ -282,9 +270,8 @@ main
 
    .card-content-description
    {
-       height: 140px;
-       margin-bottom: -30px;    
-   }
+       height: 140px;      
+    }
 
    .card-content-description h2
    {
@@ -292,13 +279,13 @@ main
    }
 
    .card-content-description p
-    {
-    font-size: 1em;
-    }
+   {
+       font-size: 1em;
+   }
 
    .star
    {
-    margin-top: -50px;
+       margin-top: -40px;
    }
 
 
@@ -307,17 +294,20 @@ main
    #activities
    {
        padding-top: 15%;
-       padding-left: 5%;     
+       padding-left: 5.5%;     
    }
 
-  #features-Marseille
+   #title-activites
+   {
+    font-size: 1.41em;
+   }
+
+   #features-Marseille
    {
        display: flex;
        flex-wrap: wrap;
-       padding-left: 5%;
-     
+       padding-left: 5%;     
    }
-
 
    .card-features-Marseille
    {
@@ -327,7 +317,6 @@ main
        display: block;
        margin-top: 15px;        
    }
-
  
    .features 
    {    
@@ -338,7 +327,7 @@ main
    #features-2-3
    {
        width: 335px;
-       height: 190px;
+       height: 180px;
        margin-top: -40px;
        margin-bottom: -15px;
    }
@@ -346,7 +335,7 @@ main
    #features-1-3
    {
        width: 335px;
-       height: 190px;
+       height: 180px;
        margin-bottom: 5px;
    }
 
@@ -355,7 +344,6 @@ main
        margin-top: -35px;
        margin-bottom: 33px;
    }
-
 
    #features-Marseille img
    {
@@ -368,8 +356,7 @@ main
    {
        height: 55px;      
        padding-top: 0;
-       padding-bottom: 0;
-       
+       padding-bottom: 0;       
    }
 
    .features-image-1-1 
@@ -381,57 +368,57 @@ main
   
    .features-image-2-3 
    {
-    height: 130px;
-    width: 335px;
-    padding-bottom: 15px;
+       height: 130px;
+       width: 335px;
+       padding-bottom: 15px;
    }
-
 
    .features-image-1-3 
    {
-    height: 130px;
-    width: 335px;
-    padding-bottom: 15px;
+       height: 130px;
+       width: 335px;
+       padding-bottom: 15px;
    }
 
    .features-image-1-2
    {
-    height: 130px;
-    width: 335px;
-    padding-bottom: 15px;
+       height: 130px;
+       width: 335px;
+       padding-bottom: 15px;
    }
+
   
 /* FOOTER */
 
-footer 
-{
- display: block;
- flex-wrap: wrap;
- flex-direction: column;
- width: 440px;
-}
+    footer 
+    {
+       display: block;
+       flex-wrap: wrap;
+       flex-direction: column;
+       width: 440px;
+    }
 
-footer h2
-{
-    font-size: 1.4em;
-}
+    footer h2
+    {
+        font-size: 1.4em;
+    }
 
-.about
-{
-    height: 160px;
-    padding-left: 7%;
-    min-width: 1000px; 
-    padding-bottom: 1%;
-    padding-top: 2%;
-}
+    .about
+    {
+        height: 160px;
+        padding-left: 7%;
+        min-width: 1000px; 
+        padding-bottom: 1%;
+        padding-top: 2%;
+    }
 
-.list
-{
-    height: 35%;
-}
+    .list
+    {
+        height: 35%;
+    }
 
-#end
-{
-    margin-top: -40px;
-}
+    #end
+    {
+        margin-top: -40px;
+    }
    

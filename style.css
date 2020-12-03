@@ -1,23 +1,4 @@
 
-/* Définition des polices personnalisées */
-
-@font-face {
-    font-family: "raleway_italic";
-    src: url('fonts/raleway-italic-variablefont_wght-webfont.woff2') format('woff2'),
-         url('fonts/raleway-italic-variablefont_wght-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "raleway";
-    src: url('fonts/raleway-variablefont_wght-webfont.woff2') format('woff2'),
-         url('fonts/raleway-variablefont_wght-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
 /* Eléments principaux de la page */
 
 html
@@ -28,10 +9,8 @@ html
 body
 {
     background-color: #ffffff;
-    font-family: "ralewaythin", "ralewaythin_italic", Arial, sans-serif;
-    
+    font-family: 'raleway', Arial, sans-serif;    
 }
-
 
 section h1, section h2, footer h2
 {
@@ -48,7 +27,6 @@ main
 {
     margin-right: 3%;
     margin-left: 3%;
-    
 }
 
 
@@ -67,8 +45,7 @@ header
 
 #logo-header img
 {
-    width: 40%;
-    
+    width: 40%;    
 }
 
 #mobile-inscrire
@@ -92,8 +69,7 @@ a
 {
     font-size: 1em;
     color: #000000;
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 
 #nav-list a:hover
@@ -140,7 +116,6 @@ a
     margin: 0 auto;  
 }
 
-
 #text
 {
     cursor: pointer;   
@@ -149,7 +124,6 @@ a
     border: #f2f2f2 1px solid;
     font-weight: bolder;    
 }
-
 
 #rechercher
 {    
@@ -167,8 +141,6 @@ a
 }
 
 
-
-
 /* Filtres */
 
 #filters
@@ -180,7 +152,6 @@ a
     font-size: 110%;
     margin-top: 1.5%;   
 }
-
 
 #titre-filtre
 {
@@ -201,7 +172,6 @@ a
     opacity: 0.7;
     box-shadow: 0px 10px 13px -7px #000000, 0px 0px 49px -9px #0065fc;
 }
-
 
 .logo
 {   
@@ -227,9 +197,7 @@ a
     padding-top: 5%;     
     width: 70%; 
     overflow: hidden;
-    border-radius: inherit;
-
-    
+    border-radius: inherit;   
 }
  
 .choix input
@@ -238,7 +206,6 @@ a
     border: #f2f2f2;
 }
 
-
 #logo-information
 {
     background-color: #0065fc;
@@ -246,8 +213,6 @@ a
     border-radius: 50px;
     border: #f2f2f2 1px solid; 
 }
-
-
 
 #information
 {
@@ -268,8 +233,7 @@ a
 #principal_section
 {
     display: flex;
-    margin-bottom: 3.5%;  
-    
+    margin-bottom: 3.5%;      
 }
 
 .price
@@ -287,8 +251,7 @@ a
     padding-right: 1%;
     padding-left: 1%;
     border: #f2f2f2 1px solid; 
-    border-radius: 30px;  
-    
+    border-radius: 30px;      
 }
  
 .description img
@@ -306,15 +269,13 @@ a
 #title-hebergement
 {
     padding-left: 1%;
-    padding-top: 3.5%;  
-        
+    padding-top: 3.5%;          
 }
 
 #title
 {   
     font-size: 1.6em;
-    font-weight: bolder;    
-     
+    font-weight: bolder;        
 }
 
 
@@ -333,15 +294,12 @@ a
     box-shadow: 7px 7px 16px 2px #707070;
 }
 
-
-
 /* Card description */
 
 .card-description
 {    
     font-size: 0.9em;    
 }
-
 
 /* Etoile de notation */
 
@@ -354,7 +312,6 @@ a
 {
     color: #f2f2f2;
 }
-
 
 /* More */
 
@@ -385,8 +342,7 @@ aside img
     width: 80%;
     height: 100%;
     min-width: 250px;      
-    border-radius: 10px 0 0 10px;
-    
+    border-radius: 10px 0 0 10px;    
 }
 
 /* Title */
@@ -398,17 +354,14 @@ aside img
     padding-top: 5%;
     font-size: 1.6em;
     font-weight: bolder;    
-    margin-left: 4.5%;    
-    
+    margin-left: 4.5%;        
 }
 
 #logo-aside
 {
     font-size: 1em;    
-    margin-left: 40%; 
-    
+    margin-left: 42%;    
 }
-
 
 /* Card Content */
 
@@ -423,33 +376,29 @@ aside img
     border-radius: 10px;   
     margin-bottom: 6%;
     box-shadow: 7px 7px 16px 2px #707070;
-    background-color: white;
-      
+    background-color: white;      
 }
 
 /* Card image */
 
-
 .card-content-image
 {   
-    width: 180px; 
-   
+    width: 180px;    
 }
-
 
 /* Card Description */
 
 .card-content-description
 {
     background: white;
-    padding-left: 3%;
+    padding-left: 4.5%;
     font-size: 0.9em;    
-
 }
 
 .star
 {
-    padding-top: 28%;
+    padding-top: 22%;
+    margin-top: 0;
 }
 
 
@@ -473,14 +422,12 @@ aside img
     padding-top: 1%;
 }
 
-
 .card-features-Marseille
 {   
     width: 23%;
     margin-bottom: 2%;
 }
  
-
 .features
 {  
     margin-bottom: 10%;
@@ -488,7 +435,6 @@ aside img
     border-radius: 30px;
     box-shadow: -1px 8px 12px -6px #f2f2f2;   
 }
-
 
 .features-image-1-1
 {   
@@ -502,7 +448,6 @@ aside img
     object-fit: cover;
     height: 100%; 
 }
-
 
 .features-image-1-2
 {   
@@ -519,15 +464,13 @@ aside img
     height: 100%; 
 }
 
-
 #features-1-3
 {
-    margin-top: 11%;
+    margin-top: 10%;
     border: #f2f2f2 1px solid; 
     border-radius: 30px;
     box-shadow: -1px 8px 12px -6px #f2f2f2;   
 }
-
 
 .features-image-1-3
 {
@@ -543,22 +486,18 @@ aside img
    height: 150%;   
 }
 
-
 #features-2-3
 { 
-   
     border: #f2f2f2 1px solid; 
     border-radius: 30px;
     box-shadow: -1px 8px 12px -6px #f2f2f2;   
 }
 
-
 .features-image-2-3
 {  
     height: 280px; 
     overflow: hidden;  
-    border-radius: 30px 30px 0 0;  
-    
+    border-radius: 30px 30px 0 0;      
 }
 
 #img-features-2-3
@@ -567,7 +506,6 @@ aside img
    width: 100%;
    height: 100%;   
 }
-
 
 .features-description
 {  
@@ -586,8 +524,6 @@ footer
     background-color: #f2f2f2;
     height: 220px;
     justify-content: center;
-    
-
 }
 
 .about
@@ -595,7 +531,6 @@ footer
     width: 33%; 
     background-color: #f2f2f2;
     padding-left: 3%;
-
 }
 
 footer div
