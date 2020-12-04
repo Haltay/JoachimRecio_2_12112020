@@ -322,6 +322,7 @@ header
 
 .card-description
 {    
+    padding-left: 4%;
     font-size: 0.9em;    
 }
 
@@ -371,20 +372,27 @@ aside img
 
 /* Title */
 
+#aside-entete
+{
+    width: 95%;
+    display: flex;
+    margin-bottom: 5%;
+    margin-top: 9%;
+    align-items: center ;
+    justify-content: space-between;
+
+}
 
 #title-aside
-{ 
-    display: flex;    
-    padding-top: 5%;
+{  
     font-size: 1.6em;
     font-weight: bolder;    
-    margin-left: 4.5%;        
+    margin-left: 4.5%;      
 }
 
 #logo-aside
-{
-    font-size: 1em;    
-    padding-left: 42%;    
+{    
+    font-size: 1.6em;    
 }
 
 /* Card Content */
