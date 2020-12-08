@@ -382,7 +382,7 @@
 
    .card-features-Marseille
     {
-       margin-left: 28%;
+       margin-left: 20%;
        margin-right: auto; 
        flex-wrap: wrap;
        width: 375px;
@@ -469,7 +469,7 @@
        display: flex;
        flex-direction: row;
        width: 100%;
-       height: 700px;
+       height: 400px;
     }
 
     footer h2
