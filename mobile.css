@@ -44,7 +44,8 @@
         justify-content: flex-end;
         font-size: 1.2em;
         margin-top: -10%;
-        margin-right: 5%;
+        margin-right: 0;
+        padding-right: 5%;
     }  
 
     #header-inscription
@@ -171,6 +172,10 @@
         margin-left: 2%;      
     }
   
+    .stars
+    {
+        margin-top: 10%;
+    }
 
 /* SECTION PRINCIPALE */
 
@@ -186,7 +191,9 @@
 
     #title-hebergement
     {
-        margin-bottom: 6%;
+        padding-right: 0;
+        margin-left: 1%;
+        margin-right: -4%;        
     }
 
     section 
@@ -203,13 +210,23 @@
        padding-top: 8%;      
    }
 
+
+   #description-title
+   { 
+       background-color: white;
+       border: white; 
+       margin-right: 0;
+       padding-right: 0;
+       padding-left: 3%; 
+   }
+
    .description
    { 
        background-color: white;
        border: white; 
        margin-right: 0;
        padding-right: 0;
-       padding-left: 4%; 
+       padding-left: 3%; 
    }
 
    .card
@@ -267,8 +284,7 @@
    }
 
    #title-aside
-   {
-      
+   {      
        margin-top: 0;
        width: 90%; 
        font-size: 1.41em;  
@@ -280,8 +296,7 @@
    }
 
    .card-content
-   {
-      
+   {      
        width: 330px;
        height: 140px;
    }
@@ -306,9 +321,9 @@
        font-size: 1em;
    }
 
-   .star
+   .stars
    {
-       margin-top: -40px;
+       margin-top: -10px;
    }
 
 
@@ -438,7 +453,7 @@
 
     .about
     {
-        height: 160px;       
+        height: auto;       
         width: 100%;
         padding-bottom: 1%;
         padding-top: 2%;
@@ -450,8 +465,4 @@
         height: 35%;
     }
 
-    #end
-    {
-        margin-top: -40px;
-    }
    

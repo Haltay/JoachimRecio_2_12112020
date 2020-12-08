@@ -48,7 +48,8 @@
         justify-content: flex-end;
         font-size: 1.2em;
         margin-top: -30px;
-        margin-right: 5%;
+        padding-left: -5%;
+        width: 90%;
     }  
 
     #header-inscription
@@ -212,8 +213,8 @@
 
     #title-hebergement
     {
-        margin-bottom: 1%;
-        padding-left: 5%; 
+       padding-right: 0;
+       padding-left: 4.5%;
     }
 
     section 
@@ -230,6 +231,13 @@
        padding-top: 8%;
        flex-direction: column;    
     }
+
+    #description-title
+    {
+       width: 100%;
+       background-color: white;
+       border: white;
+    }   
 
    .description
     {
@@ -342,9 +350,14 @@
        
     }
 
-   .star
+    .content-description
+    {
+        margin-top: 0;
+    }
+
+   .stars
     {      
-       padding-top: 10%;
+       padding-bottom: 10%;
     }
 
 
@@ -376,30 +389,31 @@
        width: 375px;
        min-height: 190px;
        display: block;
-       margin-top: 15px;        
+       margin-top: 15px; 
+       margin-bottom: 45px;       
     }
  
    .features 
     {    
        width: 120%;
-       height: 180px;        
+       height: 180px;
     }
 
    #features-2-3
     {
        width: 120%;
-       height: 180px;
-       margin-top: -40px;
-       margin-bottom: -15px;
+       height: 180px;  
+       margin-top: -30px;     
     }
 
    #features-1-3
     {
        width: 120%;
        height: 180px;
-       margin-bottom: 5px;
+       margin-top: 40px;
+       margin-bottom: -15px;
     }
-
+    
    #ND
     {
        margin-top: -35px;
@@ -454,9 +468,9 @@
     footer 
     {
        display: flex;
-       flex-wrap: wrap;
+       flex-direction: row;
        width: 100%;
-       height: 850px;
+       height: 700px;
     }
 
     footer h2
@@ -477,8 +491,4 @@
         height: 35%;
     }
 
-    #end
-    {
-        margin-top: -37%;
-        margin-left: 40%;
-    }
+

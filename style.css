@@ -91,7 +91,7 @@ header
 #recherche
 {         
     display: flex;
-    width: 23%; 
+    width: 30%; 
 }
   
 .local
@@ -159,14 +159,15 @@ header
 
 #titre-filtre
 {
-    width: 3%;
+    width: auto;
     font-size: 1.2em;
     font-weight: bolder;  
-    padding-right: 1%;  
+    margin-right: 2%;  
 }
 
 .filtre
 {  
+    margin-right: 2%;
     border: #f2f2f2 3px solid; 
     border-radius: 50px 50px 50px 50px;
 }
@@ -184,7 +185,7 @@ header
     color: #0065fc;  
 }
 
-.logo #log
+.logo label
 {
     padding-top: 35%;
     display: inline-block;    
@@ -265,7 +266,7 @@ header
     font-weight: bold;
 }
 
-.description
+#description-title
 {  
     width: 70%;
     display: flex;
@@ -275,7 +276,21 @@ header
     padding-right: 1%;
     padding-left: 1%;
     border: #f2f2f2 1px solid; 
+    border-radius: 30px;
+    justify-content: space-around;      
+}
+
+.description
+{  
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #f2f2f2;    
+   
+    border: #f2f2f2 1px solid; 
     border-radius: 30px;      
+    justify-content: space-between;      
+
 }
  
 .description img
@@ -291,9 +306,9 @@ header
 /* Title Hebergement */
 
 #title-hebergement
-{
-    padding-left: 1%;
-    padding-top: 3.5%;          
+{   
+    padding-right: 67%;
+    padding-top: 3.5%;
 }
 
 #title
@@ -328,12 +343,12 @@ header
 
 /* Etoile de notation */
 
-#blue
+.blue
 {
     color: #0065fc;
 }
 
-#grey
+.grey
 {
     color: #f2f2f2;
 }
@@ -380,7 +395,6 @@ aside img
     margin-top: 9%;
     align-items: center ;
     justify-content: space-between;
-
 }
 
 #title-aside
@@ -410,7 +424,6 @@ aside img
     margin-bottom: 6%;
     box-shadow: 7px 7px 16px 2px #707070;
     background-color: white; 
-       
 }
 
 /* Card image */
@@ -426,15 +439,26 @@ aside img
 {
     background: white;
     padding-left: 4.5%;
-    font-size: 0.9em;   
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
-.star
+.content-description
 {
-    padding-top: 22%;
-    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 60%;
+    margin-top: -10%;
 }
 
+.content-description p
+{
+    margin-top: -3%;
+}
 
 /* ACTIVITES A MARSEILLE */
 
@@ -455,17 +479,19 @@ aside img
     display: flex;
     justify-content: space-between;
     padding-top: 1%;
+    margin-bottom: 3%;
 }
 
 .card-features-Marseille
 {   
     width: 23%;
-    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
  
 .features
 {  
-    margin-bottom: 10%;
     border: #f2f2f2 1px solid; 
     border-radius: 30px;
     box-shadow: -1px 8px 12px -6px #f2f2f2;   
@@ -473,7 +499,7 @@ aside img
 
 .features-image-1-1
 {   
-    height: 510px; 
+    height: 470px; 
     overflow: hidden;    
     border-radius: 30px 30px 0 0;
 }
@@ -481,7 +507,8 @@ aside img
 #img-features-vp
 {
     object-fit: cover;
-    height: 100%; 
+    height: 100%;
+    width: 100%;
 }
 
 .features-image-1-2
@@ -498,9 +525,9 @@ aside img
     height: 100%; 
 }
 
+
 #features-1-3
-{
-    margin-top: 10%;
+{    
     border: #f2f2f2 1px solid; 
     border-radius: 30px;
     box-shadow: -1px 8px 12px -6px #f2f2f2;   
@@ -512,6 +539,7 @@ aside img
     overflow: hidden; 
     border-radius: 30px 30px 0 0;
 }
+
 
 #img-features-1-3
 {
