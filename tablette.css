@@ -209,16 +209,18 @@
         width: 100%;
     }
 
-    #title
-    {
-        margin-left: 5%;
-        font-size: 1.6em;            
-    }
-
     #title-hebergement
     {
-       padding-right: 0;
-       padding-left: 4.5%;
+       width: 85%;
+       display: flex;
+       margin-bottom: 4%;
+       margin-top: 1%;       
+    }
+
+    #title
+    {
+       font-size: 1.6em; 
+       margin-left: 10%;           
     }
 
     section 

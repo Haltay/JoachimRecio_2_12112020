@@ -185,18 +185,18 @@
         width: 100%;          
     }
 
+    #title-hebergement
+    {    
+        margin-left: 5%;    
+    }
+
     #title
     {
-        font-size: 1.33em;        
+        font-size: 1.41em;
+        padding-left: 3%;
+        
     }
-
-    #title-hebergement
-    {
-        padding-right: 0;
-        margin-left: 1%;
-        margin-right: -4%;        
-    }
-
+   
     section 
     {
        flex-wrap: wrap-reverse;
@@ -205,7 +205,7 @@
         
    article
    {
-       width: 90%;
+       width: 100%;
        flex-wrap: wrap;
        background-color: white;
        padding-top: 8%;      
@@ -217,17 +217,18 @@
        background-color: white;
        border: white; 
        margin-right: 0;
-       padding-right: 0;
-       padding-left: 3%; 
+       padding-right: 0;      
+       width: 110%; 
+       padding-left: 0;
    }
 
    .description
-   { 
+   {     
        background-color: white;
        border: white; 
        margin-right: 0;
        padding-right: 0;
-       padding-left: 3%; 
+       
    }
 
    .card
@@ -266,6 +267,7 @@
    #more
    {       
        padding-top: 5%;
+       margin-left: 5%;
        font-weight: bolder;
    }
 
@@ -338,7 +340,7 @@
    #activities
    {
        background-position: center; 
-       padding-top: 15%;
+       padding-top: 8%;
        padding-left: 5.5%;      
    }
 
