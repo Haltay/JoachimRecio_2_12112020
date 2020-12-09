@@ -151,7 +151,9 @@ header
 {
     display: flex;
     align-items: center;
-    width: 60%;    
+    width: auto;
+    width: 70%;
+    max-width: 80%;    
     justify-content: space-between;
     font-size: 110%;
     margin-top: 1.5%;   
@@ -162,12 +164,12 @@ header
     width: auto;
     font-size: 1.2em;
     font-weight: bolder;  
-    margin-right: 2%;  
+    margin-right: 0.5%;  
 }
 
 .filtre
 {  
-    margin-right: 2%;
+    margin-right: 0.5%;
     border: #f2f2f2 3px solid; 
     border-radius: 50px 50px 50px 50px;
 }
@@ -302,17 +304,27 @@ header
     border-radius: 10px 10px 0 0;
 }
 
+.card-image img
+{
+    min-height: 180px;
+}
+
 /* Title Hebergement */
 
 #title-hebergement
 {   
-    padding-right: 67%;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 1%;
     padding-top: 3.5%;
+    width: 100%;
 }
 
 #title
 {   
-    font-size: 1.6em;
+    display: flex;
+    align-items: flex-start;
+    font-size: 1.5em;
     font-weight: bolder;        
 }
 
@@ -398,7 +410,7 @@ aside img
 
 #title-aside
 {  
-    font-size: 1.6em;
+    font-size: 1.5em;
     font-weight: bolder;    
     margin-left: 4.5%;      
 }
