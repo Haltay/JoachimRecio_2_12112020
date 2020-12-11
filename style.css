@@ -65,7 +65,7 @@ header
 
 #nav-list
 {
-    width: 25%;
+    width: 30%;
     display: flex;
     padding-right: 2%;    
     justify-content: space-between;    
@@ -77,6 +77,20 @@ header
     color: #0065fc;
 }
 
+#nav-hebergement-activites
+{
+    width: 150%;   
+}
+
+#nav-hebergement-activites span
+{
+    display: inline-block; 
+}
+
+#nav-activites 
+{
+    padding-left: 14%;
+}
 
 #nav-list a:hover
 {

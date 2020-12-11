@@ -51,25 +51,14 @@
         width: 90%;
     }  
 
-    #header-inscription
-    {
-        display: none;
-    }
-
+   
     #nav-list a:hover
     {
         border-top: none;
     }
    
-    #nav-list
-    {
-        width: 100%;        
-        font-size: 1.2em;
-        padding-top: 10%;  
-        padding-right: 0;     
-    }
 
-  header span
+    header span
     {
         text-align: center;
         width: 100%;
@@ -82,7 +71,44 @@
         border-bottom: 3px solid #0065fc;
         padding-bottom: 15px;                
     }
+
    
+    #nav-list
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        padding-right: 0;
+    }
+
+    #header-inscription 
+    {
+        text-align: right;
+        margin-top: -4.5%;
+        margin-right: 5%;
+    }
+
+    .nav-responsive
+    {
+        width: 50%;
+        padding: auto;
+        margin: 0;
+    }
+
+    #nav-activites
+    {
+        padding-left: 0;
+    }
+
+    #nav-hebergement-activites
+    {
+        width: 100%;      
+        font-size: 1.2em;
+        margin-top: 8%;         
+        display: flex;
+    }
+    
+ 
 
 /* RECHERCHE */
 

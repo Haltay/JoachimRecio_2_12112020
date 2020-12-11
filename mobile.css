@@ -38,6 +38,7 @@
         padding-left: 5%;
     }
     
+    /*
     #mobile-inscrire
     {        
         display: flex;
@@ -47,11 +48,9 @@
         margin-right: 0;
         padding-right: 5%;
     }  
+    */
 
-    #header-inscription
-    {
-        display: none;
-    }
+
 
     #nav-list a:hover
     {
@@ -60,10 +59,37 @@
    
     #nav-list
     {
-        width: 100%;        
-        font-size: 1.2em;
-        padding-top: 10%;  
-        padding-right: 0;         
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        padding-right: 0;
+    }
+
+    #header-inscription 
+    {
+        text-align: right;
+        margin-top: -10%;
+        margin-right: 5%;
+    }
+
+    .nav-responsive
+    {
+        width: 50%;
+        padding: auto;
+        margin: 0;
+    }
+
+    #nav-activites
+    {
+        padding-left: 0;
+    }
+
+    #nav-hebergement-activites
+    {
+        width: 100%;      
+        font-size: 0.8em;
+        margin-top: 10%;         
+        display: flex;
     }
     
 
