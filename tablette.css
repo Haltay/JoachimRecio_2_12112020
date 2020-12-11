@@ -20,7 +20,6 @@
 
 /* HEADER */
 
-
     header
     {
         display: flex;
@@ -79,25 +78,27 @@
         flex-direction: column-reverse;
         width: 100%;
         padding-right: 0;
+        margin-right: 0;
     }
 
     #header-inscription 
     {
+        width: 94%;
         text-align: right;
-        margin-top: -4.5%;
+        margin-top: -7%;
         margin-right: 5%;
     }
 
     .nav-responsive
     {
         width: 50%;
-        padding: auto;
         margin: 0;
     }
 
     #nav-activites
     {
-        padding-left: 0;
+        padding: 0;
+        margin: 0;
     }
 
     #nav-hebergement-activites
@@ -106,6 +107,8 @@
         font-size: 1.2em;
         margin-top: 8%;         
         display: flex;
+        margin-left: 0;
+        padding: 0;
     }
     
  
@@ -249,10 +252,10 @@
        margin-left: 10%;           
     }
 
-    section 
+    #principal_section 
     {
        flex-wrap: wrap-reverse;
-       width: 110%;         
+       width: 100%;         
     }
         
    article
@@ -268,14 +271,14 @@
     {
        width: 100%;
        background-color: white;
-       border: white;
+       border: rgba(255, 255, 255, .5);
     }   
 
    .description
     {
        width: 100%;
        background-color: white;
-       border: white;
+       border: rgba(255, 255, 255, .5);
        margin-right: 0;
        padding-right: 0;
        padding-left: 0;
@@ -361,6 +364,7 @@
        width: 45%;
        height: 18.5%;
        min-width: 0;
+       background-color: white;
     }
 
    .card-content-image
@@ -371,7 +375,8 @@
 
    .card-content-description
     {
-       height: 140px;
+       height: 142px;
+       margin-top: -1px;
        margin-bottom: -30px;    
     }
 

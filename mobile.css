@@ -63,10 +63,12 @@
         flex-direction: column-reverse;
         width: 100%;
         padding-right: 0;
+        margin: 0;
     }
 
     #header-inscription 
     {
+        width: 90%;
         text-align: right;
         margin-top: -10%;
         margin-right: 5%;
@@ -75,21 +77,22 @@
     .nav-responsive
     {
         width: 50%;
-        padding: auto;
         margin: 0;
     }
 
     #nav-activites
     {
-        padding-left: 0;
+        padding: 0;
+        margin: 0;
     }
 
     #nav-hebergement-activites
     {
         width: 100%;      
-        font-size: 0.8em;
+        font-size: 0.9em;
         margin-top: 10%;         
         display: flex;
+        padding-right: 0;
     }
     
 
@@ -224,10 +227,10 @@
         
     }
    
-    section 
+    #principal_section 
     {
        flex-wrap: wrap-reverse;
-       width: 110%;       
+       width: 100%;       
     }
         
    article
@@ -242,7 +245,7 @@
    #description-title
    { 
        background-color: white;
-       border: white; 
+       border: rgba(255, 255, 255, .5); 
        margin-right: 0;
        padding-right: 0;      
        width: 110%; 
@@ -252,7 +255,7 @@
    .description
    {     
        background-color: white;
-       border: white; 
+       border: rgba(255, 255, 255, .5); 
        margin-right: 0;
        padding-right: 0;
        
@@ -334,6 +337,7 @@
    {      
        width: 330px;
        height: 140px;
+       background-color: white;
    }
 
    .card-content-image
@@ -343,7 +347,8 @@
 
    .card-content-description
     {
-       height: 140px;      
+       height: 142px; 
+       margin-top: -1px;    
     }
 
    .card-content-description h2
