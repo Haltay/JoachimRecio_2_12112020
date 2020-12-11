@@ -72,6 +72,10 @@ header
     font-size: 1.4em;
 }
 
+#header-inscription a
+{
+    color: #0065fc;
+}
 
 
 #nav-list a:hover
@@ -314,15 +318,16 @@ header
 #title-hebergement
 {   
     width: 95%;
-    display: flex;
-    margin-top: 3.95%;    
+    display: flex;    
+    margin-top: 1.5%;    
 }
 
 #title
 {   
     font-size: 1.5em;
     font-weight: bolder;
-    margin-left: -2%;    
+    margin-left: -2%;
+    margin-bottom: 0;
 }
 
 
@@ -400,7 +405,7 @@ aside img
     width: 95%;
     display: flex;
     margin-bottom: 5%;
-    margin-top: 9%;
+    margin-top: 4%;
     align-items: center ;
     justify-content: space-between;
 }
@@ -409,7 +414,8 @@ aside img
 {  
     font-size: 1.5em;
     font-weight: bolder;    
-    margin-left: 4.5%;      
+    margin-left: 4.5%;
+    margin-bottom: 0;    
 }
 
 #logo-aside
@@ -479,7 +485,8 @@ aside img
 #title-activites
 {
     font-size: 1.6em;
-    font-weight: bolder;      
+    font-weight: bolder;  
+    margin-bottom: 0;    
 }
 
 #features-Marseille
@@ -495,7 +502,7 @@ aside img
     width: 23%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
  
 .features
@@ -521,7 +528,7 @@ aside img
 
 .features-image-1-2
 {   
-    height: 212px;
+    height: 190px;
     overflow: hidden;  
     border-radius: 30px 30px 0 0;
 }
@@ -543,7 +550,7 @@ aside img
 
 .features-image-1-3
 {
-    height: 140px; 
+    height: 135px; 
     overflow: hidden; 
     border-radius: 30px 30px 0 0;
 }
@@ -560,12 +567,12 @@ aside img
 { 
     border: #f2f2f2 1px solid; 
     border-radius: 30px;
-    box-shadow: -1px 8px 12px -6px #f2f2f2;   
+    box-shadow: -1px 8px 12px -6px #f2f2f2; 
 }
 
 .features-image-2-3
 {  
-    height: 280px; 
+    height: 245px; 
     overflow: hidden;  
     border-radius: 30px 30px 0 0;      
 }
@@ -582,7 +589,9 @@ aside img
     font-weight: bolder;
     padding-top: 3%;
     padding-left: 4%;
-    padding-bottom: 4%; 
+    padding-bottom: 4%;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 
