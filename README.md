@@ -5,7 +5,8 @@ My first project in html to become web developer (OpenClassrooms training)
 
 ## Installation
 
-You don't need any installation, just open "reservia.html" in your browser
+You don't need any installation, just click on "[Reservia](https://haltay.github.io/JoachimRecio_2_12112020/reservia.html)" and it will be open in your browser.
+
 
 ## Tasks
 
@@ -15,6 +16,8 @@ You don't need any installation, just open "reservia.html" in your browser
 
 
 ## More projects
+[Reservia](https://github.com/Haltay/JoachimRecio_2_12112020) (HTML and CSS) : [github-pages](https://haltay.github.io/JoachimRecio_2_12112020/reservia.html)
+
 [Ohmyfood](https://github.com/Haltay/JoachimRecio_3_16122020) (SASS) : [github-pages](https://haltay.github.io/JoachimRecio_3_16122020/ohmyfood_accueil.html)
 
 [La Chouette Agence](https://github.com/Haltay/P4_01.02.21) (SEO, Accessibility) : [github-pages](https://haltay.github.io/P4_01.02.21/)
