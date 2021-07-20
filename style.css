@@ -12,7 +12,7 @@ body
     font-family: 'raleway', Arial, sans-serif;    
 }
 
-section h1, section h2, footer h2
+section h1, div h2, footer h2
 {
     font-size: 1.6em;
     font-weight: bolder;
@@ -65,14 +65,45 @@ header
 
 #nav-list
 {
-    width: 25%;
+    width: 440px;   
     display: flex;
-    padding-right: 2%;    
-    justify-content: space-between;    
+    margin-right: 2%;  
     font-size: 1.4em;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    
+}
+
+#nav-responsive
+{
+    margin-right: 20%;
 }
 
 
+#header-inscription a
+{
+    color: #0065fc;
+}
+
+#nav-hebergement-activites
+{
+    display: flex;
+    width: 400px;   
+    align-content: center;
+    padding-right: 80px;
+}
+
+#nav-hebergement-activites span
+{
+    display: inline-block; 
+}
+
+#nav-activites 
+{
+    margin-left: 5%;
+    padding-left: 14%;
+}
 
 #nav-list a:hover
 {
@@ -151,7 +182,9 @@ header
 {
     display: flex;
     align-items: center;
-    width: 60%;    
+    width: auto;
+    width: 70%;
+    max-width: 80%;    
     justify-content: space-between;
     font-size: 110%;
     margin-top: 1.5%;   
@@ -162,12 +195,12 @@ header
     width: auto;
     font-size: 1.2em;
     font-weight: bolder;  
-    margin-right: 2%;  
+    margin-right: 0.5%;  
 }
 
 .filtre
 {  
-    margin-right: 2%;
+    margin-right: 0.5%;
     border: #f2f2f2 3px solid; 
     border-radius: 50px 50px 50px 50px;
 }
@@ -275,7 +308,7 @@ header
     margin-right: 2%;
     padding-right: 1%;
     padding-left: 1%;
-    border: #f2f2f2 1px solid; 
+    border: white 1px solid; 
     border-radius: 30px;
     justify-content: space-around;      
 }
@@ -285,8 +318,7 @@ header
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    background: #f2f2f2;   
-    border: #f2f2f2 1px solid; 
+    background: #f2f2f2;    
     border-radius: 30px;      
     justify-content: space-between;      
 
@@ -302,18 +334,26 @@ header
     border-radius: 10px 10px 0 0;
 }
 
+.card-image img
+{
+    min-height: 180px;
+}
+
 /* Title Hebergement */
 
 #title-hebergement
 {   
-    padding-right: 67%;
-    padding-top: 3.5%;
+    width: 95%;
+    display: flex;    
+    margin-top: 1.5%;    
 }
 
 #title
 {   
-    font-size: 1.6em;
-    font-weight: bolder;        
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-left: -2%;
+    margin-bottom: 0;
 }
 
 
@@ -327,7 +367,7 @@ header
     margin-top: 2%;
     margin-bottom: 2%;
     background: white;
-    border: white 6px solid; 
+    border: rgba(255, 255, 255, .5) 6px solid; 
     border-radius: 10px;
     box-shadow: 7px 7px 16px 2px #707070;
 }
@@ -371,7 +411,7 @@ aside
 {  
     width: 30%;
     background: #f2f2f2;
-    border: #f2f2f2 1px solid; 
+    border: white 1px solid; 
     border-radius: 30px;      
 }
 
@@ -391,16 +431,17 @@ aside img
     width: 95%;
     display: flex;
     margin-bottom: 5%;
-    margin-top: 9%;
+    margin-top: 4%;
     align-items: center ;
     justify-content: space-between;
 }
 
 #title-aside
 {  
-    font-size: 1.6em;
+    font-size: 1.5em;
     font-weight: bolder;    
-    margin-left: 4.5%;      
+    margin-left: 4.5%;
+    margin-bottom: 0;    
 }
 
 #logo-aside
@@ -418,11 +459,11 @@ aside img
     height: 205px;
     margin-left: auto;  
     margin-right: auto;   
-    border: white 6px solid; 
+    border: #fcfcfc 6px solid; 
     border-radius: 10px;   
     margin-bottom: 6%;
-    box-shadow: 7px 7px 16px 2px #707070;
-    background-color: white; 
+    box-shadow: 7px 7px 16px 2px #707070;  
+    background-color: white;  
 }
 
 /* Card image */
@@ -470,7 +511,8 @@ aside img
 #title-activites
 {
     font-size: 1.6em;
-    font-weight: bolder;      
+    font-weight: bolder;  
+    margin-bottom: 0;    
 }
 
 #features-Marseille
@@ -486,7 +528,7 @@ aside img
     width: 23%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
  
 .features
@@ -512,7 +554,7 @@ aside img
 
 .features-image-1-2
 {   
-    height: 212px;
+    height: 190px;
     overflow: hidden;  
     border-radius: 30px 30px 0 0;
 }
@@ -534,7 +576,7 @@ aside img
 
 .features-image-1-3
 {
-    height: 140px; 
+    height: 135px; 
     overflow: hidden; 
     border-radius: 30px 30px 0 0;
 }
@@ -551,12 +593,12 @@ aside img
 { 
     border: #f2f2f2 1px solid; 
     border-radius: 30px;
-    box-shadow: -1px 8px 12px -6px #f2f2f2;   
+    box-shadow: -1px 8px 12px -6px #f2f2f2; 
 }
 
 .features-image-2-3
 {  
-    height: 280px; 
+    height: 245px; 
     overflow: hidden;  
     border-radius: 30px 30px 0 0;      
 }
@@ -573,7 +615,9 @@ aside img
     font-weight: bolder;
     padding-top: 3%;
     padding-left: 4%;
-    padding-bottom: 4%; 
+    padding-bottom: 4%;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 
